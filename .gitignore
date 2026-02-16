@@ -1,0 +1,18 @@
+# Don't include source code
+src/
+
+# Don't include raw data
+data/
+
+# Only sample outputs
+output/*.json
+!output/samples/
+
+# Environment
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
