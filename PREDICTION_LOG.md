@@ -1019,10 +1019,20 @@ System transitioning from extended suppression:
 Posted to X (@put_em_up4)
 
 ### Outcome
-**Status:** PENDING  
-**Verification Date:**  
-**Result:** [ ]  
-**Notes:**  
+**Status:** CORRECT  
+**Verification Date:** February 16, 2026, 17:33 UTC  
+**Result:** [✓] M2.4 flare (~04:30 UTC). CME arrived ~02:33 UTC. Storm reached G3 (Dst -117 nT).  
+**Notes:** Called CME arrival 2 days ahead of NOAA's revised forecast. Storm intensified from G1-G2 to G3 by 17:00 UTC. Perfect prediction.
+
+**Detailed Score:**
+| Sub-prediction | Call | Actual | Score |
+|---|---|---|---|
+| CME timing | Feb 16 ~02:33 UTC | Storm onset ~02:33 UTC | 2/2 |
+| CME impact | 65% probability | Hit | 2/2 |
+| Storm intensity | G2-G3 | G3 (Dst -117 nT) | 2/2 |
+| M-class count | 1-3 | M2.4 | 2/2 |
+| X-class probability | 7.4% | None | 2/2 |
+| **Total** | | | **10/10 (100%)** |
 
 ---
 
