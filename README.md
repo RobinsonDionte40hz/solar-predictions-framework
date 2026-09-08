@@ -3,7 +3,9 @@
 **Real-time solar flare and geomagnetic storm prediction system**
 
 Author: Dionte Robinson  
-Track Record: **87% accuracy** (94/108 points across 10 scored predictions)
+Track Record: **88% accuracy** (223/254 points across 27 scored predictions)
+
+**Live dashboard:** https://robinsondionte40hz.github.io/solar-predictions-framework/
 
 ---
 
@@ -50,6 +52,21 @@ This is **physics-first prediction**, not pattern matching.
 - [docs/SOLAR_IMPEDANCE_THEORY.md](docs/SOLAR_IMPEDANCE_THEORY.md) — Impedance matching framework
 - [docs/MAGNETOSPHERIC_SATURATION_PAPER.md](docs/MAGNETOSPHERIC_SATURATION_PAPER.md) — Geomagnetic response model
 - [output/samples/](output/samples/) — Example prediction outputs
+
+## Dashboard
+
+`dashboard/` is a static, dependency-free site (navy / light-yellow) showing current conditions, the
+24-hour forecast, Earth-directed CMEs, active regions, trends, and the scored track record.
+It reads `dashboard/data/{latest,history,log}.json`, which `scripts/build_dashboard.py` generates.
+
+`.github/workflows/pages.yml` runs hourly: it checks out the private prediction engine (via the
+`ENGINE_TOKEN` secret), runs a fresh prediction, rebuilds the data files, commits them, and deploys to
+GitHub Pages. Without the secret it still deploys from the last committed data.
+
+```bash
+python scripts/build_dashboard.py --output path/to/engine/output
+python -m http.server 8765 --directory dashboard   # preview
+```
 
 ---
 

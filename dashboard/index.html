@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solar Predictions — Channel Manifestation Framework</title>
+  <meta name="description" content="Physics-based solar flare and geomagnetic storm forecasts with a public, scored prediction log.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-row">
+      <div>
+        <h1>Solar Predictions</h1>
+        <p class="tagline">σ<sub>log</sub> impedance forecasting · Channel Manifestation Framework</p>
+      </div>
+      <div class="header-meta">
+        <span id="updated" class="muted">loading…</span>
+        <nav>
+          <a href="#forecast">Forecast</a>
+          <a href="#outlook">Outlook</a>
+          <a href="#regions">Regions</a>
+          <a href="#trends">Trends</a>
+          <a href="#record">Track record</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <p id="error" class="error" hidden></p>
+
+    <section class="cards" aria-label="Current conditions">
+      <article class="card">
+        <h3>X-ray flux</h3>
+        <div class="big" id="xray-class">—</div>
+        <div class="sub" id="xray-sub">—</div>
+      </article>
+      <article class="card">
+        <h3>Geomagnetic</h3>
+        <div class="big" id="geo-state">—</div>
+        <div class="sub" id="geo-sub">—</div>
+      </article>
+      <article class="card">
+        <h3>Solar wind</h3>
+        <div class="big" id="sw-speed">—</div>
+        <div class="sub" id="sw-sub">—</div>
+      </article>
+      <article class="card">
+        <h3>σ<sub>log</sub></h3>
+        <div class="big" id="sigma">—</div>
+        <div class="sub" id="sigma-sub">—</div>
+      </article>
+      <article class="card">
+        <h3>Radiation</h3>
+        <div class="big" id="s-scale">—</div>
+        <div class="sub" id="s-sub">—</div>
+      </article>
+    </section>
+
+    <section id="forecast" class="panel">
+      <h2>24-hour forecast</h2>
+      <div class="forecast-grid">
+        <div class="stat"><span class="label">Expected M-class</span><span class="value" id="f-m">—</span></div>
+        <div class="stat"><span class="label">X-class probability</span><span class="value" id="f-x">—</span></div>
+        <div class="stat"><span class="label">C-class range</span><span class="value" id="f-c">—</span></div>
+        <div class="stat"><span class="label">Primary source</span><span class="value" id="f-src">—</span></div>
+        <div class="stat"><span class="label">Energy state</span><span class="value" id="f-energy">—</span></div>
+        <div class="stat"><span class="label">Topology</span><span class="value" id="f-topo">—</span></div>
+        <div class="stat"><span class="label">Hardness pattern</span><span class="value" id="f-hard">—</span></div>
+        <div class="stat"><span class="label">Confidence</span><span class="value" id="f-conf">—</span></div>
+      </div>
+    </section>
+
+    <section id="cme" class="panel">
+      <h2>Earth-directed CMEs</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>Launch</th><th>Speed</th><th>Impact prob.</th><th>Est. arrival</th><th>Window</th><th>Expected</th><th>Status</th></tr>
+          </thead>
+          <tbody id="cme-body"></tbody>
+        </table>
+      </div>
+      <p id="cme-empty" class="muted" hidden>No Earth-directed CMEs in transit.</p>
+    </section>
+
+    <section id="outlook" class="panel">
+      <h2>Extended outlook</h2>
+      <pre id="outlook-text" class="outlook">—</pre>
+    </section>
+
+    <section id="regions" class="panel">
+      <h2>Active regions</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>AR</th><th>Mag class</th><th>Position</th><th>Area</th><th>Share</th><th>M prob.</th><th>X prob.</th><th>Trend</th></tr>
+          </thead>
+          <tbody id="region-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="trends" class="panel">
+      <h2>Trends</h2>
+      <div class="charts">
+        <figure><figcaption>σ<sub>log</sub></figcaption><svg id="chart-sigma" viewBox="0 0 600 160"></svg></figure>
+        <figure><figcaption>Expected M-class / day</figcaption><svg id="chart-m" viewBox="0 0 600 160"></svg></figure>
+        <figure><figcaption>X-class probability (%)</figcaption><svg id="chart-x" viewBox="0 0 600 160"></svg></figure>
+        <figure><figcaption>Solar wind speed (km/s)</figcaption><svg id="chart-sw" viewBox="0 0 600 160"></svg></figure>
+      </div>
+    </section>
+
+    <section id="record" class="panel">
+      <h2>Track record</h2>
+      <div class="totals" id="totals"></div>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr><th>#</th><th>Prediction</th><th>Issued</th><th>Target</th><th>Score</th><th>Status</th></tr>
+          </thead>
+          <tbody id="log-body"></tbody>
+        </table>
+      </div>
+      <p class="muted">Every prediction is written down before the outcome is known. Full reasoning and scoring in
+        <a id="log-link" href="https://github.com/RobinsonDionte40hz/solar-predictions/blob/master/PREDICTION_LOG.md">PREDICTION_LOG.md</a>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>Dionte Robinson · <a href="https://github.com/RobinsonDionte40hz/solar-predictions">source</a> ·
+        <a href="https://github.com/RobinsonDionte40hz/solar-predictions/blob/master/docs/SOLAR_SIGMA_LOG_DISCOVERY.md">σ<sub>log</sub> paper</a> ·
+        <a href="data/latest.json">latest.json</a></span>
+      <span class="muted">Data: NASA DONKI · NOAA SWPC · DSCOVR L1</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

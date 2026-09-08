@@ -1,0 +1,149 @@
+:root {
+  --navy-900: #06111f;
+  --navy-800: #0b1a30;
+  --navy-700: #10254a;
+  --navy-600: #183463;
+  --navy-500: #24488a;
+  --yellow: #fff3b0;
+  --yellow-bright: #ffe98a;
+  --yellow-dim: #d9c97a;
+  --text: #e9eef7;
+  --muted: #9fb0c8;
+  --line: rgba(255, 243, 176, 0.14);
+  --coral: #ff8a80;
+  --sage: #a7f3c0;
+  --radius: 10px;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+
+* { box-sizing: border-box; }
+
+html { color-scheme: dark; }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text);
+  background: radial-gradient(1200px 600px at 20% -10%, var(--navy-600), transparent 60%), var(--navy-900);
+}
+
+a { color: var(--yellow-bright); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrap { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
+.muted { color: var(--muted); }
+[hidden] { display: none !important; }
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, var(--navy-800), transparent);
+}
+.header-row {
+  display: flex; flex-wrap: wrap; gap: 16px;
+  justify-content: space-between; align-items: flex-end;
+  padding: 28px 20px 18px;
+}
+h1 { margin: 0; font-size: 28px; letter-spacing: 0.3px; color: var(--yellow-bright); }
+.tagline { margin: 4px 0 0; color: var(--muted); }
+.header-meta { text-align: right; display: flex; flex-direction: column; gap: 8px; }
+nav { display: flex; flex-wrap: wrap; gap: 14px; justify-content: flex-end; }
+nav a { color: var(--text); font-size: 14px; }
+nav a:hover { color: var(--yellow-bright); }
+
+/* Sections */
+main { padding: 24px 20px 40px; display: grid; gap: 22px; }
+.panel {
+  background: var(--navy-800);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+}
+h2 {
+  margin: 0 0 14px; font-size: 17px; font-weight: 600;
+  color: var(--yellow); text-transform: uppercase; letter-spacing: 1px;
+}
+
+/* Cards */
+.cards {
+  display: grid; gap: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+.card {
+  background: var(--navy-700);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--yellow-bright);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.card h3 { margin: 0 0 6px; font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); font-weight: 600; }
+.big { font-size: 28px; font-weight: 700; color: var(--yellow-bright); font-family: var(--mono); line-height: 1.1; }
+.sub { font-size: 13px; color: var(--muted); margin-top: 6px; }
+
+/* Forecast grid */
+.forecast-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.stat { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; background: var(--navy-700); border-radius: 8px; }
+.stat .label { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; }
+.stat .value { font-size: 20px; font-weight: 600; color: var(--yellow); font-family: var(--mono); }
+
+/* Tables */
+.table-scroll { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.6px; }
+tbody tr:hover { background: var(--navy-700); }
+td.num { font-family: var(--mono); }
+td.wrap-cell { white-space: normal; }
+
+.badge {
+  display: inline-block; padding: 2px 8px; border-radius: 999px;
+  font-size: 12px; font-weight: 600; letter-spacing: 0.4px;
+  background: var(--navy-600); color: var(--text);
+}
+.badge.correct { background: var(--yellow-bright); color: var(--navy-900); }
+.badge.incorrect { background: var(--coral); color: var(--navy-900); }
+.badge.pending { background: var(--navy-500); color: var(--yellow); }
+.badge.withdrawn { background: transparent; border: 1px solid var(--line); color: var(--muted); }
+.badge.arrived { background: var(--sage); color: var(--navy-900); }
+
+/* Outlook */
+.outlook {
+  margin: 0; padding: 14px 16px;
+  background: var(--navy-900); border: 1px solid var(--line); border-radius: 8px;
+  font-family: var(--mono); font-size: 13px; line-height: 1.55;
+  white-space: pre-wrap; color: var(--text);
+}
+
+/* Charts */
+.charts { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+figure { margin: 0; background: var(--navy-700); border-radius: 8px; padding: 10px 12px 6px; }
+figcaption { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; margin-bottom: 6px; }
+svg { width: 100%; height: auto; aspect-ratio: 600 / 160; display: block; }
+.chart-line { fill: none; stroke: var(--yellow-bright); stroke-width: 2; vector-effect: non-scaling-stroke; }
+.chart-area { fill: var(--yellow-bright); opacity: 0.12; }
+.chart-grid { stroke: var(--line); stroke-width: 1; vector-effect: non-scaling-stroke; }
+.chart-label { fill: var(--muted); font-size: 11px; font-family: var(--mono); }
+.chart-dot { fill: var(--yellow-bright); }
+
+/* Totals */
+.totals { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 16px; }
+.total {
+  flex: 1 1 130px; padding: 12px 14px; border-radius: 8px;
+  background: var(--navy-700); border-left: 3px solid var(--yellow-bright);
+}
+.total .n { display: block; font-size: 26px; font-weight: 700; font-family: var(--mono); color: var(--yellow-bright); }
+.total .l { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.6px; }
+
+/* Footer / errors */
+.site-footer { border-top: 1px solid var(--line); padding: 18px 0 28px; font-size: 13px; }
+.site-footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+.error { padding: 10px 14px; border-radius: 8px; background: rgba(255, 138, 128, 0.12); border: 1px solid var(--coral); color: var(--coral); margin: 0; }
+
+@media (max-width: 640px) {
+  .header-meta { text-align: left; }
+  nav { justify-content: flex-start; }
+  .big { font-size: 24px; }
+}

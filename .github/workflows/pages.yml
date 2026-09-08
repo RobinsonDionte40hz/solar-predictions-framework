@@ -1,0 +1,92 @@
+name: Build & Deploy Dashboard
+
+on:
+  schedule:
+    - cron: '17 * * * *'   # hourly
+  push:
+    branches: [main]
+    paths:
+      - 'dashboard/**'
+      - 'scripts/build_dashboard.py'
+      - 'PREDICTION_LOG.md'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HAS_ENGINE: ${{ secrets.ENGINE_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # Private engine repo (RobinsonDionte40hz/solar-predictions). Needs a fine-grained
+      # PAT with Contents:read on that repo, stored here as secret ENGINE_TOKEN.
+      - name: Checkout prediction engine
+        if: env.HAS_ENGINE == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: RobinsonDionte40hz/solar-predictions
+          ref: master
+          token: ${{ secrets.ENGINE_TOKEN }}
+          path: engine
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run predictor
+        if: env.HAS_ENGINE == 'true'
+        continue-on-error: true
+        timeout-minutes: 10
+        working-directory: engine
+        run: |
+          pip install -r requirements.txt
+          python -m src.prediction.runner
+
+      - name: Sync prediction log from engine
+        if: env.HAS_ENGINE == 'true'
+        run: cp engine/PREDICTION_LOG.md PREDICTION_LOG.md
+
+      # Without the engine, engine/output doesn't exist and the builder just
+      # re-derives history/log from what is already committed.
+      - name: Build dashboard data
+        run: python scripts/build_dashboard.py --output engine/output
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name 'dashboard-bot'
+          git config user.email 'actions@github.com'
+          git add dashboard/data/ PREDICTION_LOG.md
+          if git diff --staged --quiet; then
+            echo "no data changes"
+          else
+            git commit -m "data: refresh dashboard $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
