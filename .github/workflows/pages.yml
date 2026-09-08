@@ -31,8 +31,11 @@ jobs:
 
       # Private engine repo (RobinsonDionte40hz/solar-predictions). Needs a fine-grained
       # PAT with Contents:read on that repo, stored here as secret ENGINE_TOKEN.
+      # A bad/expired token must not block deploying the last good data.
       - name: Checkout prediction engine
+        id: engine
         if: env.HAS_ENGINE == 'true'
+        continue-on-error: true
         uses: actions/checkout@v4
         with:
           repository: RobinsonDionte40hz/solar-predictions
@@ -40,12 +43,16 @@ jobs:
           token: ${{ secrets.ENGINE_TOKEN }}
           path: engine
 
+      - name: Engine checkout failed
+        if: env.HAS_ENGINE == 'true' && steps.engine.outcome != 'success'
+        run: echo "::warning::ENGINE_TOKEN could not read solar-predictions (403?). Deploying existing data only."
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Run predictor
-        if: env.HAS_ENGINE == 'true'
+        if: steps.engine.outcome == 'success'
         continue-on-error: true
         timeout-minutes: 10
         working-directory: engine
@@ -54,7 +61,7 @@ jobs:
           python -m src.prediction.runner
 
       - name: Sync prediction log from engine
-        if: env.HAS_ENGINE == 'true'
+        if: steps.engine.outcome == 'success'
         run: cp engine/PREDICTION_LOG.md PREDICTION_LOG.md
 
       # Without the engine, engine/output doesn't exist and the builder just
