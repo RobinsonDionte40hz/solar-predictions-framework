@@ -25,13 +25,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HAS_ENGINE: ${{ secrets.ENGINE_TOKEN != '' }}
+      HAS_ENGINE: ${{ secrets.ENGINE_SSH_KEY != '' || secrets.ENGINE_TOKEN != '' }}
     steps:
       - uses: actions/checkout@v4
 
-      # Private engine repo (RobinsonDionte40hz/solar-predictions). Needs a fine-grained
-      # PAT with Contents:read on that repo, stored here as secret ENGINE_TOKEN.
-      # A bad/expired token must not block deploying the last good data.
+      # Private engine repo (RobinsonDionte40hz/solar-predictions). Auth is either
+      #   ENGINE_SSH_KEY  - private half of a read-only deploy key on that repo (preferred), or
+      #   ENGINE_TOKEN    - a PAT with read access to that repo.
+      # A bad/expired credential must not block deploying the last good data.
       - name: Checkout prediction engine
         id: engine
         if: env.HAS_ENGINE == 'true'
@@ -40,12 +41,13 @@ jobs:
         with:
           repository: RobinsonDionte40hz/solar-predictions
           ref: master
-          token: ${{ secrets.ENGINE_TOKEN }}
+          ssh-key: ${{ secrets.ENGINE_SSH_KEY }}
+          token: ${{ secrets.ENGINE_TOKEN || github.token }}
           path: engine
 
       - name: Engine checkout failed
         if: env.HAS_ENGINE == 'true' && steps.engine.outcome != 'success'
-        run: echo "::warning::ENGINE_TOKEN could not read solar-predictions (403?). Deploying existing data only."
+        run: echo "::warning::Could not read solar-predictions with the configured credential. Deploying existing data only."
 
       - uses: actions/setup-python@v5
         with:
@@ -93,7 +95,7 @@ jobs:
             echo "## Dashboard build"
             echo "| step | result |"
             echo "|---|---|"
-            echo "| ENGINE_TOKEN present | ${HAS_ENGINE} |"
+            echo "| engine credential | ${{ secrets.ENGINE_SSH_KEY != '' && 'ssh deploy key' || (secrets.ENGINE_TOKEN != '' && 'token' || 'none') }} |"
             echo "| engine checkout | ${{ steps.engine.outcome }} |"
             echo "| predictor | ${{ steps.predictor.outcome }} |"
             echo "| newest output | $(ls engine/output/unified_prediction_*.json 2>/dev/null | tail -1 | xargs -r basename || echo none) |"
