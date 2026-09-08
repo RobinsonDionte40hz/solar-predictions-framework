@@ -52,6 +52,7 @@ jobs:
           python-version: '3.11'
 
       - name: Run predictor
+        id: predictor
         if: steps.engine.outcome == 'success'
         continue-on-error: true
         timeout-minutes: 10
@@ -70,17 +71,35 @@ jobs:
         run: python scripts/build_dashboard.py --output engine/output
 
       - name: Commit refreshed data
+        id: commit
         run: |
           git config user.name 'dashboard-bot'
           git config user.email 'actions@github.com'
           git add dashboard/data/ PREDICTION_LOG.md
           if git diff --staged --quiet; then
             echo "no data changes"
+            echo "result=no changes" >> "$GITHUB_OUTPUT"
           else
             git commit -m "data: refresh dashboard $(date -u '+%Y-%m-%d %H:%M UTC')"
             git pull --rebase origin main
             git push origin HEAD:main
+            echo "result=pushed $(git rev-parse --short HEAD)" >> "$GITHUB_OUTPUT"
           fi
+
+      - name: Job summary
+        if: always()
+        run: |
+          {
+            echo "## Dashboard build"
+            echo "| step | result |"
+            echo "|---|---|"
+            echo "| ENGINE_TOKEN present | ${HAS_ENGINE} |"
+            echo "| engine checkout | ${{ steps.engine.outcome }} |"
+            echo "| predictor | ${{ steps.predictor.outcome }} |"
+            echo "| newest output | $(ls engine/output/unified_prediction_*.json 2>/dev/null | tail -1 | xargs -r basename || echo none) |"
+            echo "| latest.json timestamp | $(python -c 'import json;print(json.load(open("dashboard/data/latest.json"))["timestamp"])' 2>/dev/null || echo unknown) |"
+            echo "| commit | ${{ steps.commit.outputs.result }} |"
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - uses: actions/configure-pages@v5
 
