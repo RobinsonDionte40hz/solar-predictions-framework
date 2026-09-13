@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-13T04:32:59.536717+00:00",
+  "timestamp": "2026-09-13T05:28:38.583254+00:00",
   "prediction": {
     "expected_m": 0.5,
     "m_range": [
@@ -41,11 +41,11 @@
   },
   "f107": 127.0,
   "hardness": {
-    "ratio": 0.00297,
+    "ratio": 0.00313,
     "state": "depleted",
     "pattern": "SOFTENING",
     "thermalization_index": 0.0,
-    "trend": -0.8167
+    "trend": -0.8698
   },
   "production": {
     "avg_m_per_day": 0.0,
@@ -249,15 +249,15 @@
     }
   ],
   "xray": {
-    "flux": 3.338000169605948e-07,
-    "class": "B3.3",
-    "time": "2026-09-13T04:26:00Z"
+    "flux": 3.171697073867108e-07,
+    "class": "B3.2",
+    "time": "2026-09-13T05:23:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-09-06": {
-      "B": 1,
+      "B": 0,
       "C": 2,
       "M": 0,
       "X": 0
@@ -538,7 +538,7 @@
         "arrival_early": "2026-09-10T20:01:20+00:00",
         "arrival_late": "2026-09-13T18:51:20+00:00",
         "in_transit": false,
-        "hours_since_launch": 139.2,
+        "hours_since_launch": 140.1,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -554,7 +554,7 @@
         "arrival_early": "2026-09-13T11:38:50.686830+00:00",
         "arrival_late": "2026-09-16T18:12:08.418399+00:00",
         "in_transit": true,
-        "hours_since_launch": 84.5,
+        "hours_since_launch": 85.5,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -570,7 +570,7 @@
         "arrival_early": "2026-09-14T00:11:38.988297+00:00",
         "arrival_late": "2026-09-17T22:19:03.835410+00:00",
         "in_transit": true,
-        "hours_since_launch": 90.2,
+        "hours_since_launch": 91.1,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       }
@@ -588,7 +588,7 @@
         "arrival_early": "2026-09-10T16:55:42.128326+00:00",
         "arrival_late": "2026-09-13T22:58:01.095462+00:00",
         "in_transit": false,
-        "hours_since_launch": 150.7,
+        "hours_since_launch": 151.6,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -604,7 +604,7 @@
         "arrival_early": "2026-09-12T12:10:21.030043+00:00",
         "arrival_late": "2026-09-14T17:40:39.055794+00:00",
         "in_transit": true,
-        "hours_since_launch": 78.8,
+        "hours_since_launch": 79.7,
         "expected_kp": 5,
         "expected_g_scale": "G1-G2"
       },
@@ -620,7 +620,7 @@
         "arrival_early": "2026-09-14T02:24:07.920792+00:00",
         "arrival_late": "2026-09-16T16:07:06.138614+00:00",
         "in_transit": true,
-        "hours_since_launch": 50.1,
+        "hours_since_launch": 51.1,
         "expected_kp": 4,
         "expected_g_scale": "G0-G1"
       },
@@ -636,7 +636,7 @@
         "arrival_early": "2026-09-14T13:09:52.897196+00:00",
         "arrival_late": "2026-09-16T23:25:12.523364+00:00",
         "in_transit": true,
-        "hours_since_launch": 35.3,
+        "hours_since_launch": 36.3,
         "expected_kp": 4,
         "expected_g_scale": "G0-G1"
       },
@@ -652,7 +652,7 @@
         "arrival_early": "2026-09-15T06:53:44.109589+00:00",
         "arrival_late": "2026-09-18T03:12:21.917808+00:00",
         "in_transit": true,
-        "hours_since_launch": 29.3,
+        "hours_since_launch": 30.3,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -668,7 +668,7 @@
         "arrival_early": "2026-09-15T18:21:59.955044+00:00",
         "arrival_late": "2026-09-18T16:25:25.630795+00:00",
         "in_transit": true,
-        "hours_since_launch": 19.9,
+        "hours_since_launch": 20.8,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -684,7 +684,7 @@
         "arrival_early": "2026-09-16T00:00:02.132640+00:00",
         "arrival_late": "2026-09-19T09:03:29.674902+00:00",
         "in_transit": true,
-        "hours_since_launch": 27.1,
+        "hours_since_launch": 28.0,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       }
@@ -702,7 +702,7 @@
         "arrival_early": "2026-09-11T21:40:44.109589+00:00",
         "arrival_late": "2026-09-14T17:59:21.917808+00:00",
         "in_transit": true,
-        "hours_since_launch": 110.6,
+        "hours_since_launch": 111.5,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -718,7 +718,7 @@
         "arrival_early": "2026-09-12T12:10:21.030043+00:00",
         "arrival_late": "2026-09-14T17:40:39.055794+00:00",
         "in_transit": true,
-        "hours_since_launch": 78.8,
+        "hours_since_launch": 79.7,
         "expected_kp": 5,
         "expected_g_scale": "G1-G2"
       },
@@ -734,7 +734,7 @@
         "arrival_early": "2026-09-13T07:16:32.623883+00:00",
         "arrival_late": "2026-09-15T09:54:43.444354+00:00",
         "in_transit": true,
-        "hours_since_launch": 56.3,
+        "hours_since_launch": 57.3,
         "expected_kp": 5,
         "expected_g_scale": "G1-G2"
       },
@@ -750,7 +750,7 @@
         "arrival_early": "2026-09-13T01:16:38.140644+00:00",
         "arrival_late": "2026-09-16T03:34:19.404052+00:00",
         "in_transit": true,
-        "hours_since_launch": 89.9,
+        "hours_since_launch": 90.9,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -766,7 +766,7 @@
         "arrival_early": "2026-09-13T17:02:16.297507+00:00",
         "arrival_late": "2026-09-15T19:59:04.552513+00:00",
         "in_transit": true,
-        "hours_since_launch": 46.9,
+        "hours_since_launch": 47.9,
         "expected_kp": 5,
         "expected_g_scale": "G1-G2"
       },
@@ -782,7 +782,7 @@
         "arrival_early": "2026-09-13T17:57:08.613139+00:00",
         "arrival_late": "2026-09-16T02:49:33.138686+00:00",
         "in_transit": true,
-        "hours_since_launch": 52.9,
+        "hours_since_launch": 53.9,
         "expected_kp": 4,
         "expected_g_scale": "G0-G1"
       },
@@ -798,7 +798,7 @@
         "arrival_early": "2026-09-13T11:38:50.686830+00:00",
         "arrival_late": "2026-09-16T18:12:08.418399+00:00",
         "in_transit": true,
-        "hours_since_launch": 84.5,
+        "hours_since_launch": 85.5,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -814,7 +814,7 @@
         "arrival_early": "2026-09-14T02:24:07.920792+00:00",
         "arrival_late": "2026-09-16T16:07:06.138614+00:00",
         "in_transit": true,
-        "hours_since_launch": 50.1,
+        "hours_since_launch": 51.1,
         "expected_kp": 4,
         "expected_g_scale": "G0-G1"
       },
@@ -830,7 +830,7 @@
         "arrival_early": "2026-09-13T16:45:22.868526+00:00",
         "arrival_late": "2026-09-17T11:03:42.470120+00:00",
         "in_transit": true,
-        "hours_since_launch": 93.1,
+        "hours_since_launch": 94.1,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -846,7 +846,7 @@
         "arrival_early": "2026-09-14T08:47:46.086957+00:00",
         "arrival_late": "2026-09-17T00:33:51.304348+00:00",
         "in_transit": true,
-        "hours_since_launch": 46.1,
+        "hours_since_launch": 47.1,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -862,7 +862,7 @@
         "arrival_early": "2026-09-14T13:09:52.897196+00:00",
         "arrival_late": "2026-09-16T23:25:12.523364+00:00",
         "in_transit": true,
-        "hours_since_launch": 35.3,
+        "hours_since_launch": 36.3,
         "expected_kp": 4,
         "expected_g_scale": "G0-G1"
       },
@@ -878,7 +878,7 @@
         "arrival_early": "2026-09-14T00:11:15.050072+00:00",
         "arrival_late": "2026-09-17T17:21:45.092990+00:00",
         "in_transit": true,
-        "hours_since_launch": 84.4,
+        "hours_since_launch": 85.3,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -894,7 +894,7 @@
         "arrival_early": "2026-09-14T00:11:38.988297+00:00",
         "arrival_late": "2026-09-17T22:19:03.835410+00:00",
         "in_transit": true,
-        "hours_since_launch": 90.2,
+        "hours_since_launch": 91.1,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -910,7 +910,7 @@
         "arrival_early": "2026-09-14T14:43:22.998501+00:00",
         "arrival_late": "2026-09-17T17:29:08.425787+00:00",
         "in_transit": true,
-        "hours_since_launch": 53.0,
+        "hours_since_launch": 54.0,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -926,7 +926,7 @@
         "arrival_early": "2026-09-14T12:39:42.988995+00:00",
         "arrival_late": "2026-09-18T05:10:19.836706+00:00",
         "in_transit": true,
-        "hours_since_launch": 71.1,
+        "hours_since_launch": 72.1,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -942,7 +942,7 @@
         "arrival_early": "2026-09-15T01:27:13.966480+00:00",
         "arrival_late": "2026-09-17T23:06:00.223464+00:00",
         "in_transit": true,
-        "hours_since_launch": 36.3,
+        "hours_since_launch": 37.3,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -958,7 +958,7 @@
         "arrival_early": "2026-09-15T06:53:44.109589+00:00",
         "arrival_late": "2026-09-18T03:12:21.917808+00:00",
         "in_transit": true,
-        "hours_since_launch": 29.3,
+        "hours_since_launch": 30.3,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -974,7 +974,7 @@
         "arrival_early": "2026-09-15T05:05:48.641094+00:00",
         "arrival_late": "2026-09-18T07:14:13.190604+00:00",
         "in_transit": true,
-        "hours_since_launch": 37.9,
+        "hours_since_launch": 38.9,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -990,7 +990,7 @@
         "arrival_early": "2026-09-15T18:21:59.955044+00:00",
         "arrival_late": "2026-09-18T16:25:25.630795+00:00",
         "in_transit": true,
-        "hours_since_launch": 19.9,
+        "hours_since_launch": 20.8,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       },
@@ -1006,7 +1006,7 @@
         "arrival_early": "2026-09-16T00:00:02.132640+00:00",
         "arrival_late": "2026-09-19T09:03:29.674902+00:00",
         "in_transit": true,
-        "hours_since_launch": 27.1,
+        "hours_since_launch": 28.0,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       }
@@ -1156,7 +1156,7 @@
         "arrival_early": "2026-09-10T20:01:20+00:00",
         "arrival_late": "2026-09-13T18:51:20+00:00",
         "in_transit": false,
-        "hours_since_launch": 139.2,
+        "hours_since_launch": 140.1,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       }
@@ -1186,7 +1186,7 @@
         "arrival_early": "2026-09-13T11:38:50.686830+00:00",
         "arrival_late": "2026-09-16T18:12:08.418399+00:00",
         "in_transit": true,
-        "hours_since_launch": 84.5,
+        "hours_since_launch": 85.5,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       }
@@ -1216,7 +1216,7 @@
         "arrival_early": "2026-09-14T00:11:38.988297+00:00",
         "arrival_late": "2026-09-17T22:19:03.835410+00:00",
         "in_transit": true,
-        "hours_since_launch": 90.2,
+        "hours_since_launch": 91.1,
         "expected_kp": 3,
         "expected_g_scale": "G0"
       }
@@ -1225,13 +1225,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 3.338000169605948e-07
+    "flux": 3.171697073867108e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.2205239236354828
+      "flux": 0.1767382025718689
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -1251,7 +1251,7 @@
         "in_burst": false,
         "burst_count": 1,
         "burst_duration_hours": 0,
-        "hours_since_last_flare": 91.4,
+        "hours_since_last_flare": 92.3,
         "last_flare_class": "C3.4",
         "burst_energy_trend": "NONE",
         "burst_largest": "C3.4",
@@ -1262,7 +1262,7 @@
       "continuation_hours": 0.0,
       "energy_trajectory": "STABLE \u2014 no strong trend",
       "phase": "RECHARGING",
-      "summary": "Recharging after C3.4: 91h elapsed, ~67% of median C-class recharge (136h).",
+      "summary": "Recharging after C3.4: 92h elapsed, ~68% of median C-class recharge (136h).",
       "confidence": 0.6,
       "horizon": "0-6 hours"
     },
@@ -1284,11 +1284,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.00297,
+        "hardness_ratio": 0.00313,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0030 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0031 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
@@ -1307,8 +1307,8 @@
             "last_event": "M1.0",
             "last_time": "2026-09-05T15:18:00+00:00",
             "last_region": "14520",
-            "hours_since": 181.2,
-            "recharge_pct": 518.0,
+            "hours_since": 182.2,
+            "recharge_pct": 521.0,
             "median_recharge_hours": 35.0,
             "window_open": true,
             "window_opens_in": 0,
@@ -1318,8 +1318,8 @@
             "last_event": "C3.4",
             "last_time": "2026-09-09T09:08:00+00:00",
             "last_region": "14524",
-            "hours_since": 91.4,
-            "recharge_pct": 1143.0,
+            "hours_since": 92.3,
+            "recharge_pct": 1154.0,
             "median_recharge_hours": 8.0,
             "window_open": true,
             "window_opens_in": 0,
@@ -1328,7 +1328,7 @@
         },
         "next_window": null,
         "all_ready": true,
-        "summary": "X-class: no recent events (window open) | M-class: FAR_SIDE (181h gap \u2014 likely active on back side) | C-class: FAR_SIDE (91h gap \u2014 likely active on back side)"
+        "summary": "X-class: no recent events (window open) | M-class: FAR_SIDE (182h gap \u2014 likely active on back side) | C-class: FAR_SIDE (92h gap \u2014 likely active on back side)"
       },
       "confidence": 0.6,
       "horizon": "1-3 days",
@@ -1341,11 +1341,11 @@
             "region": "4520",
             "full_region": "14520",
             "last_location": "S12W68",
-            "last_longitude": -167.7,
-            "days_until_east_limb": 19.5,
-            "return_date": "2026-10-02T17:04:20.891616+00:00",
+            "last_longitude": -168.2,
+            "days_until_east_limb": 19.6,
+            "return_date": "2026-10-02T18:55:38.984690+00:00",
             "days_until_center": 12.7,
-            "center_date": "2026-09-25T21:26:09.982525+00:00",
+            "center_date": "2026-09-25T23:17:28.075599+00:00",
             "confidence": "LOW",
             "total_flares": 1,
             "m_class": 1,
@@ -1359,11 +1359,11 @@
             "region": "4513",
             "full_region": "14513",
             "last_location": "N04W05",
-            "last_longitude": -238.4,
+            "last_longitude": -238.9,
             "days_until_east_limb": 24.9,
-            "return_date": "2026-10-08T01:35:37.255252+00:00",
+            "return_date": "2026-10-08T03:26:55.348326+00:00",
             "days_until_center": 18.1,
-            "center_date": "2026-10-01T05:57:26.346161+00:00",
+            "center_date": "2026-10-01T07:48:44.439235+00:00",
             "confidence": "LOW",
             "total_flares": 13,
             "m_class": 11,
@@ -1462,7 +1462,7 @@
       "confidence": 0.7,
       "horizon": "months-years"
     },
-    "combined_outlook": "NEXT 6 HOURS (60% confidence):\n  Recharging after C3.4: 91h elapsed, ~67% of median C-class recharge (136h).\n\nNEXT 1-3 DAYS (60% confidence):\n  Thermalization phase: RECOVERY\n  Charging phase: energy will begin accumulating in active regions. Hardness ratio will rise as magnetic structure builds.\n  Recharge: X-class: no recent events (window open) | M-class: FAR_SIDE (181h gap \u2014 likely active on back side) | C-class: FAR_SIDE (91h gap \u2014 likely active on back side)\n\nROTATION RETURN (35% confidence):\n  Next return: AR4520 ~2026-10-02 (in 20 days). 1 flares (0X, 1M, 0C), largest M1.0\n\nCYCLE OUTLOOK (70% confidence):\n  \u03c3_log: 1.0 \u2192 ~1.5 (est. 2031)\n  Trend: RISING_TO_MINIMUM\n  2026: \u03c3_log \u2248 0.98 \u2014 HIGH \u2014 frequent M-class, regular X-class (~2.5 M/day)\n  2027: \u03c3_log \u2248 1.07 \u2014 MODERATE \u2014 regular M-class, occasional X-class (~1.0 M/day)\n  2028: \u03c3_log \u2248 1.17 \u2014 LOW-MODERATE \u2014 occasional M-class (~1.0 M/day)"
+    "combined_outlook": "NEXT 6 HOURS (60% confidence):\n  Recharging after C3.4: 92h elapsed, ~68% of median C-class recharge (136h).\n\nNEXT 1-3 DAYS (60% confidence):\n  Thermalization phase: RECOVERY\n  Charging phase: energy will begin accumulating in active regions. Hardness ratio will rise as magnetic structure builds.\n  Recharge: X-class: no recent events (window open) | M-class: FAR_SIDE (182h gap \u2014 likely active on back side) | C-class: FAR_SIDE (92h gap \u2014 likely active on back side)\n\nROTATION RETURN (35% confidence):\n  Next return: AR4520 ~2026-10-02 (in 20 days). 1 flares (0X, 1M, 0C), largest M1.0\n\nCYCLE OUTLOOK (70% confidence):\n  \u03c3_log: 1.0 \u2192 ~1.5 (est. 2031)\n  Trend: RISING_TO_MINIMUM\n  2026: \u03c3_log \u2248 0.98 \u2014 HIGH \u2014 frequent M-class, regular X-class (~2.5 M/day)\n  2027: \u03c3_log \u2248 1.07 \u2014 MODERATE \u2014 regular M-class, occasional X-class (~1.0 M/day)\n  2028: \u03c3_log \u2248 1.17 \u2014 LOW-MODERATE \u2014 occasional M-class (~1.0 M/day)"
   },
   "far_side_estimate": {
     "system_budget": 0.5,
