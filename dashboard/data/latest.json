@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T17:31:43.820499+00:00",
+  "timestamp": "2026-09-30T18:38:11.770456+00:00",
   "prediction": {
     "expected_m": 1.6,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 126.0,
   "hardness": {
-    "ratio": 0.0673,
+    "ratio": 0.07158,
     "state": "high",
     "pattern": "BUILDING",
-    "thermalization_index": 0.523,
-    "trend": 13.906
+    "thermalization_index": 0.566,
+    "trend": 11.3864
   },
   "production": {
     "avg_m_per_day": 0.0,
@@ -168,9 +168,9 @@
     }
   ],
   "xray": {
-    "flux": 2.768875333458709e-07,
+    "flux": 2.776211545096885e-07,
     "class": "B2.8",
-    "time": "2026-09-30T17:26:00Z"
+    "time": "2026-09-30T18:32:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -239,13 +239,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.768875333458709e-07
+    "flux": 2.776211545096885e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.21291255950927734
+      "flux": 0.2146328240633011
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -292,11 +292,11 @@
           1,
           8
         ],
-        "hardness_ratio": 0.0673,
-        "thermalization_index": 0.523,
-        "cycle_position": 0.615,
+        "hardness_ratio": 0.07158,
+        "thermalization_index": 0.566,
+        "cycle_position": 0.666,
         "pattern": "BUILDING",
-        "summary": "System at THRESHOLD. Hardness 0.0673 \u2014 maximum energy storage. Watch for softening signature: if hardness drops >20% from this level, major flare likely within 30-90 minutes."
+        "summary": "System at THRESHOLD. Hardness 0.0716 \u2014 maximum energy storage. Watch for softening signature: if hardness drops >20% from this level, major flare likely within 30-90 minutes."
       },
       "recharge": {
         "by_class": {
