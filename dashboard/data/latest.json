@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-02T11:30:57.150058+00:00",
+  "timestamp": "2026-10-02T12:45:23.050427+00:00",
   "prediction": {
     "expected_m": 0.5,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.00452,
+    "ratio": 0.00451,
     "state": "depleted",
     "pattern": "STABLE",
     "thermalization_index": 0.0,
-    "trend": 0.0436
+    "trend": 0.0722
   },
   "production": {
     "avg_m_per_day": 0.0,
@@ -127,26 +127,6 @@
       "x_probability": 0.0024
     },
     {
-      "number": "4542",
-      "area": 0,
-      "mag_class": "A",
-      "longitude": -91,
-      "latitude": -19,
-      "spots": 0,
-      "position_factor": 0.0,
-      "position_tomorrow": 0.0,
-      "improving": false,
-      "growth_rate": 0.0,
-      "raw_capacity": 0.04,
-      "growth_bonus": 1.0,
-      "weighted_capacity": 0.0,
-      "share": 0.0,
-      "is_dominant": false,
-      "expected_m_contribution": 0.0,
-      "m_probability": 0.0,
-      "x_probability": 0.0
-    },
-    {
       "number": "4533",
       "area": 0,
       "mag_class": "A",
@@ -165,12 +145,32 @@
       "expected_m_contribution": 0.0,
       "m_probability": 0.0,
       "x_probability": 0.0
+    },
+    {
+      "number": "4542",
+      "area": 0,
+      "mag_class": "A",
+      "longitude": -91,
+      "latitude": -19,
+      "spots": 0,
+      "position_factor": 0.0,
+      "position_tomorrow": 0.0,
+      "improving": false,
+      "growth_rate": 0.0,
+      "raw_capacity": 0.04,
+      "growth_bonus": 1.0,
+      "weighted_capacity": 0.0,
+      "share": 0.0,
+      "is_dominant": false,
+      "expected_m_contribution": 0.0,
+      "m_probability": 0.0,
+      "x_probability": 0.0
     }
   ],
   "xray": {
-    "flux": 2.1662678761913412e-07,
+    "flux": 2.20329326339197e-07,
     "class": "B2.2",
-    "time": "2026-10-02T11:25:00Z"
+    "time": "2026-10-02T12:39:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -245,13 +245,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.1662678761913412e-07
+    "flux": 2.20329326339197e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.22406859695911407
+      "flux": 0.23625938594341278
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -298,7 +298,7 @@
           6,
           48
         ],
-        "hardness_ratio": 0.00452,
+        "hardness_ratio": 0.00451,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "STABLE",
