@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-02T01:46:28.235773+00:00",
+  "timestamp": "2026-10-02T02:43:48.070358+00:00",
   "prediction": {
     "expected_m": 0.9,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.01766,
+    "ratio": 0.01541,
     "state": "low",
     "pattern": "SOFTENING",
-    "thermalization_index": 0.027,
-    "trend": -0.6877
+    "thermalization_index": 0.004,
+    "trend": -0.5959
   },
   "production": {
     "avg_m_per_day": 0.0,
-    "avg_c_per_day": 2.1,
+    "avg_c_per_day": 2.0,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -188,16 +188,16 @@
     }
   ],
   "xray": {
-    "flux": 2.478693090779416e-07,
-    "class": "B2.5",
-    "time": "2026-10-02T01:40:00Z"
+    "flux": 0.0,
+    "class": "N/A",
+    "time": "2026-10-02T02:37:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-09-25": {
       "B": 2,
-      "C": 2,
+      "C": 1,
       "M": 0,
       "X": 0
     },
@@ -265,13 +265,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.478693090779416e-07
+    "flux": 0.0
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.27496352791786194
+      "flux": 0.2062385529279709
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -318,11 +318,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.01766,
-        "thermalization_index": 0.027,
-        "cycle_position": 0.031,
+        "hardness_ratio": 0.01541,
+        "thermalization_index": 0.004,
+        "cycle_position": 0.005,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0177 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0154 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
