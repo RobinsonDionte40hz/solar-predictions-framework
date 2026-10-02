@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-10-02T07:40:22.636426+00:00",
+  "timestamp": "2026-10-02T08:40:07.542806+00:00",
   "prediction": {
-    "expected_m": 0.7,
+    "expected_m": 0.9,
     "m_range": [
       0,
       1
     ],
     "m_most_likely": 1,
-    "x_probability": 3.8,
+    "x_probability": 5.0,
     "c_range": [
-      3,
-      7
+      4,
+      8
     ],
     "primary_source": "AR4545",
     "primary_share_pct": 69.0,
@@ -19,13 +19,13 @@
     "confidence": 0.45
   },
   "budget": {
-    "expected_m_per_day": 0.7,
-    "expected_x_prob": 0.038,
-    "expected_c_per_day": 5.0,
+    "expected_m_per_day": 0.9,
+    "expected_x_prob": 0.05,
+    "expected_c_per_day": 6.0,
     "energy_state": "LOW",
     "confidence": 0.45,
     "estimator_agreement": "DIVERGENT",
-    "hardness_effect": 0.75,
+    "hardness_effect": 1.0,
     "components": {
       "sigma_log_est": 1.5,
       "f107_est": 1.0,
@@ -40,11 +40,11 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.00448,
-    "state": "depleted",
+    "ratio": 0.01587,
+    "state": "low",
     "pattern": "SOFTENING",
-    "thermalization_index": 0.0,
-    "trend": -0.6449
+    "thermalization_index": 0.009,
+    "trend": -0.5093
   },
   "production": {
     "avg_m_per_day": 0.0,
@@ -82,8 +82,8 @@
       "weighted_capacity": 0.0775,
       "share": 0.6871,
       "is_dominant": true,
-      "expected_m_contribution": 0.48,
-      "m_probability": 0.382,
+      "expected_m_contribution": 0.62,
+      "m_probability": 0.461,
       "x_probability": 0.02
     },
     {
@@ -102,9 +102,9 @@
       "weighted_capacity": 0.0261,
       "share": 0.2314,
       "is_dominant": false,
-      "expected_m_contribution": 0.16,
-      "m_probability": 0.15,
-      "x_probability": 0.0088
+      "expected_m_contribution": 0.21,
+      "m_probability": 0.188,
+      "x_probability": 0.0116
     },
     {
       "number": "4535",
@@ -122,9 +122,9 @@
       "weighted_capacity": 0.0092,
       "share": 0.0816,
       "is_dominant": false,
-      "expected_m_contribution": 0.06,
-      "m_probability": 0.056,
-      "x_probability": 0.0031
+      "expected_m_contribution": 0.07,
+      "m_probability": 0.071,
+      "x_probability": 0.0041
     },
     {
       "number": "4542",
@@ -168,9 +168,9 @@
     }
   ],
   "xray": {
-    "flux": 2.2178625158630894e-07,
-    "class": "B2.2",
-    "time": "2026-10-02T07:33:00Z"
+    "flux": 0.0,
+    "class": "N/A",
+    "time": "2026-10-02T08:33:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -245,13 +245,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.2178625158630894e-07
+    "flux": 0.0
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.21296130120754242
+      "flux": 0.2184554487466812
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -298,11 +298,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.00448,
-        "thermalization_index": 0.0,
-        "cycle_position": 0.0,
+        "hardness_ratio": 0.01587,
+        "thermalization_index": 0.009,
+        "cycle_position": 0.01,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0045 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0159 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
@@ -442,9 +442,9 @@
     "combined_outlook": "NEXT 6 HOURS (60% confidence):\n  Quiet. No recent significant activity to drive cascade.\n\nNEXT 1-3 DAYS (60% confidence):\n  Thermalization phase: RECOVERY\n  Charging phase: energy will begin accumulating in active regions. Hardness ratio will rise as magnetic structure builds.\n  Recharge: X-class: no recent events (window open) | M-class: no recent events (window open) | C-class: no recent events (window open)\n\nROTATION RETURN (35% confidence):\n  No significant region returns predicted.\n\nCYCLE OUTLOOK (70% confidence):\n  \u03c3_log: 0.91 \u2192 ~1.5 (est. 2029)\n  Trend: RISING_TO_MINIMUM\n  2026: \u03c3_log \u2248 1.07 \u2014 MODERATE \u2014 regular M-class, occasional X-class (~1.0 M/day)\n  2027: \u03c3_log \u2248 1.22 \u2014 LOW-MODERATE \u2014 occasional M-class (~0.2 M/day)\n  2028: \u03c3_log \u2248 1.41 \u2014 LOW \u2014 rare M-class (~0.1 M/day)"
   },
   "far_side_estimate": {
-    "system_budget": 0.7,
+    "system_budget": 0.9,
     "earth_facing_output": 0,
-    "far_side_estimate": 0.7,
+    "far_side_estimate": 0.9,
     "note": "System budget - observed = likely far-side activity"
   }
 }
