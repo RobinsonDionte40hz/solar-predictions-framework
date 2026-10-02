@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-02T06:49:49.008628+00:00",
+  "timestamp": "2026-10-02T07:40:22.636426+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -13,8 +13,8 @@
       7
     ],
     "primary_source": "AR4545",
-    "primary_share_pct": 39.0,
-    "topology_mode": "DISTRIBUTED",
+    "primary_share_pct": 69.0,
+    "topology_mode": "FOCUSED",
     "energy_state": "LOW",
     "confidence": 0.45
   },
@@ -40,11 +40,11 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.00369,
+    "ratio": 0.00448,
     "state": "depleted",
     "pattern": "SOFTENING",
     "thermalization_index": 0.0,
-    "trend": -0.6968
+    "trend": -0.6449
   },
   "production": {
     "avg_m_per_day": 0.0,
@@ -58,120 +58,100 @@
     "total_m_7d": 0
   },
   "topology": {
-    "mode": "DISTRIBUTED",
-    "dominant_region": null,
-    "n_active": 4,
-    "concentration": 0.282,
+    "mode": "FOCUSED",
+    "dominant_region": "4545",
+    "n_active": 3,
+    "concentration": 0.532,
     "has_complex": false,
-    "prime_zone_capacity": 0.206
+    "prime_zone_capacity": 0
   },
   "region_predictions": [
     {
       "number": "4545",
-      "area": 10,
+      "area": 20,
       "mag_class": "B",
-      "longitude": 61,
+      "longitude": 46,
       "latitude": 20,
-      "spots": 3,
-      "position_factor": 0.602,
-      "position_tomorrow": 0.757,
+      "spots": 2,
+      "position_factor": 0.775,
+      "position_tomorrow": 0.886,
       "improving": true,
       "growth_rate": 0.0,
       "raw_capacity": 0.1,
       "growth_bonus": 1.0,
-      "weighted_capacity": 0.0602,
-      "share": 0.3871,
-      "is_dominant": false,
-      "expected_m_contribution": 0.27,
-      "m_probability": 0.237,
-      "x_probability": 0.0147
-    },
-    {
-      "number": "4535",
-      "area": 50,
-      "mag_class": "B",
-      "longitude": -72,
-      "latitude": 11,
-      "spots": 4,
-      "position_factor": 0.44,
-      "position_tomorrow": 0.176,
-      "improving": false,
-      "growth_rate": 0.0,
-      "raw_capacity": 0.1,
-      "growth_bonus": 1.0,
-      "weighted_capacity": 0.044,
-      "share": 0.283,
-      "is_dominant": false,
-      "expected_m_contribution": 0.2,
-      "m_probability": 0.18,
-      "x_probability": 0.0108
+      "weighted_capacity": 0.0775,
+      "share": 0.6871,
+      "is_dominant": true,
+      "expected_m_contribution": 0.48,
+      "m_probability": 0.382,
+      "x_probability": 0.02
     },
     {
       "number": "4544",
-      "area": 10,
+      "area": 0,
       "mag_class": "A",
-      "longitude": -43,
+      "longitude": -57,
       "latitude": -9,
-      "spots": 1,
-      "position_factor": 0.803,
-      "position_tomorrow": 0.663,
+      "spots": 0,
+      "position_factor": 0.654,
+      "position_tomorrow": 0.469,
       "improving": false,
       "growth_rate": 0.0,
       "raw_capacity": 0.04,
       "growth_bonus": 1.0,
-      "weighted_capacity": 0.0321,
-      "share": 0.2064,
+      "weighted_capacity": 0.0261,
+      "share": 0.2314,
       "is_dominant": false,
-      "expected_m_contribution": 0.14,
-      "m_probability": 0.135,
-      "x_probability": 0.0078
+      "expected_m_contribution": 0.16,
+      "m_probability": 0.15,
+      "x_probability": 0.0088
+    },
+    {
+      "number": "4535",
+      "area": 30,
+      "mag_class": "A",
+      "longitude": -83,
+      "latitude": 12,
+      "spots": 1,
+      "position_factor": 0.229,
+      "position_tomorrow": 0.0,
+      "improving": false,
+      "growth_rate": 0.0,
+      "raw_capacity": 0.04,
+      "growth_bonus": 1.0,
+      "weighted_capacity": 0.0092,
+      "share": 0.0816,
+      "is_dominant": false,
+      "expected_m_contribution": 0.06,
+      "m_probability": 0.056,
+      "x_probability": 0.0031
     },
     {
       "number": "4542",
       "area": 0,
       "mag_class": "A",
-      "longitude": -77,
+      "longitude": -91,
       "latitude": -19,
       "spots": 0,
-      "position_factor": 0.352,
+      "position_factor": 0.0,
       "position_tomorrow": 0.0,
       "improving": false,
       "growth_rate": 0.0,
       "raw_capacity": 0.04,
       "growth_bonus": 1.0,
-      "weighted_capacity": 0.0141,
-      "share": 0.0907,
+      "weighted_capacity": 0.0,
+      "share": 0.0,
       "is_dominant": false,
-      "expected_m_contribution": 0.06,
-      "m_probability": 0.062,
-      "x_probability": 0.0034
+      "expected_m_contribution": 0.0,
+      "m_probability": 0.0,
+      "x_probability": 0.0
     },
     {
       "number": "4533",
       "area": 0,
       "mag_class": "A",
-      "longitude": -87,
+      "longitude": -101,
       "latitude": -13,
-      "spots": 0,
-      "position_factor": 0.127,
-      "position_tomorrow": 0.0,
-      "improving": false,
-      "growth_rate": 0.0,
-      "raw_capacity": 0.04,
-      "growth_bonus": 1.0,
-      "weighted_capacity": 0.0051,
-      "share": 0.0328,
-      "is_dominant": false,
-      "expected_m_contribution": 0.02,
-      "m_probability": 0.023,
-      "x_probability": 0.0012
-    },
-    {
-      "number": "4539",
-      "area": 0,
-      "mag_class": "A",
-      "longitude": -96,
-      "latitude": -10,
       "spots": 0,
       "position_factor": 0.0,
       "position_tomorrow": 0.0,
@@ -188,9 +168,9 @@
     }
   ],
   "xray": {
-    "flux": 2.7420583137427457e-07,
-    "class": "B2.7",
-    "time": "2026-10-02T06:45:00Z"
+    "flux": 2.2178625158630894e-07,
+    "class": "B2.2",
+    "time": "2026-10-02T07:33:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -265,13 +245,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.7420583137427457e-07
+    "flux": 2.2178625158630894e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.23481999337673187
+      "flux": 0.21296130120754242
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -318,11 +298,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.00369,
+        "hardness_ratio": 0.00448,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0037 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0045 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
