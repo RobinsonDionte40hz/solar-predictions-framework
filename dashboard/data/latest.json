@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-02T18:38:37.853174+00:00",
+  "timestamp": "2026-10-02T19:29:58.002837+00:00",
   "prediction": {
     "expected_m": 1.0,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.03376,
+    "ratio": 0.03661,
     "state": "moderate",
     "pattern": "BUILDING",
-    "thermalization_index": 0.188,
-    "trend": 5.0576
+    "thermalization_index": 0.216,
+    "trend": 5.0281
   },
   "production": {
     "avg_m_per_day": 0.0,
@@ -188,9 +188,9 @@
     }
   ],
   "xray": {
-    "flux": 2.2832448109966208e-07,
-    "class": "B2.3",
-    "time": "2026-10-02T18:31:00Z"
+    "flux": 2.1719881715398515e-07,
+    "class": "B2.2",
+    "time": "2026-10-02T19:22:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -265,13 +265,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.2832448109966208e-07
+    "flux": 2.1719881715398515e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.2266787737607956
+      "flux": 0.2495763897895813
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -318,11 +318,11 @@
           6,
           24
         ],
-        "hardness_ratio": 0.03376,
-        "thermalization_index": 0.188,
-        "cycle_position": 0.221,
+        "hardness_ratio": 0.03661,
+        "thermalization_index": 0.216,
+        "cycle_position": 0.254,
         "pattern": "BUILDING",
-        "summary": "System CHARGING. Hardness 0.0338, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
+        "summary": "System CHARGING. Hardness 0.0366, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
