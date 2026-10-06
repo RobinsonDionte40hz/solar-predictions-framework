@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T01:08:45.914001+00:00",
+  "timestamp": "2026-10-06T01:45:27.156360+00:00",
   "prediction": {
     "expected_m": 1.5,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 131.0,
   "hardness": {
-    "ratio": 0.05396,
+    "ratio": 0.05343,
     "state": "elevated",
     "pattern": "SOFTENING",
-    "thermalization_index": 0.39,
-    "trend": -0.5024
+    "thermalization_index": 0.384,
+    "trend": -0.3242
   },
   "production": {
     "avg_m_per_day": 0.1,
@@ -188,9 +188,9 @@
     }
   ],
   "xray": {
-    "flux": 9.017541060529766e-07,
-    "class": "B9.0",
-    "time": "2026-10-06T01:04:00Z"
+    "flux": 7.193492024271109e-07,
+    "class": "B7.2",
+    "time": "2026-10-06T01:40:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -265,13 +265,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 9.017541060529766e-07
+    "flux": 7.193492024271109e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.24206186830997467
+      "flux": 0.21543090045452118
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -318,11 +318,11 @@
           0.5,
           4
         ],
-        "hardness_ratio": 0.05396,
-        "thermalization_index": 0.39,
-        "cycle_position": 0.458,
+        "hardness_ratio": 0.05343,
+        "thermalization_index": 0.384,
+        "cycle_position": 0.452,
         "pattern": "SOFTENING",
-        "summary": "System DISCHARGING. Active flaring with rapid thermalization. Hardness trend: -0.502. Recovery phase follows."
+        "summary": "System DISCHARGING. Active flaring with rapid thermalization. Hardness trend: -0.324. Recovery phase follows."
       },
       "recharge": {
         "by_class": {
