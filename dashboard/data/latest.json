@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-06T07:25:42.920424+00:00",
+  "timestamp": "2026-11-06T08:28:54.083121+00:00",
   "prediction": {
     "expected_m": 0.6,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 100.0,
   "hardness": {
-    "ratio": 0.01852,
+    "ratio": 0.01826,
     "state": "low",
     "pattern": "SOFTENING",
-    "thermalization_index": 0.035,
-    "trend": -0.632
+    "thermalization_index": 0.033,
+    "trend": -0.6155
   },
   "production": {
     "avg_m_per_day": 0.1,
-    "avg_c_per_day": 1.5,
+    "avg_c_per_day": 1.6,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -228,9 +228,9 @@
     }
   ],
   "xray": {
-    "flux": 9.773330020834692e-07,
-    "class": "B9.8",
-    "time": "2026-11-06T07:20:00Z"
+    "flux": 1.0127311043106602e-06,
+    "class": "C1.0",
+    "time": "2026-11-06T08:24:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -279,7 +279,7 @@
     },
     "2026-11-06": {
       "B": 0,
-      "C": 4,
+      "C": 5,
       "M": 0,
       "X": 0
     }
@@ -311,13 +311,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 9.773330020834692e-07
+    "flux": 1.0127311043106602e-06
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.2207169085741043
+      "flux": 0.2738369405269623
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -364,11 +364,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.01852,
-        "thermalization_index": 0.035,
-        "cycle_position": 0.041,
+        "hardness_ratio": 0.01826,
+        "thermalization_index": 0.033,
+        "cycle_position": 0.038,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0185 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0183 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
