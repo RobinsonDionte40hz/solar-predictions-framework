@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-06T15:25:06.562443+00:00",
+  "timestamp": "2026-11-06T16:26:02.708123+00:00",
   "prediction": {
     "expected_m": 0.6,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 100.0,
   "hardness": {
-    "ratio": 0.01606,
+    "ratio": 0.02027,
     "state": "low",
     "pattern": "BUILDING",
-    "thermalization_index": 0.011,
-    "trend": 0.8104
+    "thermalization_index": 0.053,
+    "trend": 1.144
   },
   "production": {
     "avg_m_per_day": 0.1,
-    "avg_c_per_day": 2.1,
+    "avg_c_per_day": 2.4,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -228,15 +228,15 @@
     }
   ],
   "xray": {
-    "flux": 8.460747267236002e-07,
-    "class": "B8.5",
-    "time": "2026-11-06T15:19:00Z"
+    "flux": 8.650673066767922e-07,
+    "class": "B8.7",
+    "time": "2026-11-06T16:20:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-10-30": {
-      "B": 4,
+      "B": 3,
       "C": 0,
       "M": 0,
       "X": 0
@@ -279,7 +279,7 @@
     },
     "2026-11-06": {
       "B": 0,
-      "C": 9,
+      "C": 11,
       "M": 0,
       "X": 0
     }
@@ -311,13 +311,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 8.460747267236002e-07
+    "flux": 8.650673066767922e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.1902785748243332
+      "flux": 0.185539111495018
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -364,11 +364,11 @@
           6,
           24
         ],
-        "hardness_ratio": 0.01606,
-        "thermalization_index": 0.011,
-        "cycle_position": 0.012,
+        "hardness_ratio": 0.02027,
+        "thermalization_index": 0.053,
+        "cycle_position": 0.062,
         "pattern": "BUILDING",
-        "summary": "System CHARGING. Hardness 0.0161, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
+        "summary": "System CHARGING. Hardness 0.0203, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
