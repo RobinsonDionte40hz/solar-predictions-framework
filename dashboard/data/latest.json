@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-06T04:26:52.861179+00:00",
+  "timestamp": "2026-11-06T05:25:21.825580+00:00",
   "prediction": {
     "expected_m": 0.6,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 100.0,
   "hardness": {
-    "ratio": 0.01862,
+    "ratio": 0.01534,
     "state": "low",
     "pattern": "BUILDING",
-    "thermalization_index": 0.036,
-    "trend": 3.4675
+    "thermalization_index": 0.003,
+    "trend": 0.9316
   },
   "production": {
     "avg_m_per_day": 0.1,
-    "avg_c_per_day": 1.2,
+    "avg_c_per_day": 1.4,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -188,9 +188,9 @@
     }
   ],
   "xray": {
-    "flux": 1.373487975797616e-06,
-    "class": "C1.4",
-    "time": "2026-11-06T04:21:00Z"
+    "flux": 1.0107236221301719e-06,
+    "class": "C1.0",
+    "time": "2026-11-06T05:19:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -239,7 +239,7 @@
     },
     "2026-11-06": {
       "B": 0,
-      "C": 2,
+      "C": 3,
       "M": 0,
       "X": 0
     }
@@ -271,13 +271,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.373487975797616e-06
+    "flux": 1.0107236221301719e-06
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.2440851926803589
+      "flux": 0.2067640721797943
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -324,11 +324,11 @@
           6,
           24
         ],
-        "hardness_ratio": 0.01862,
-        "thermalization_index": 0.036,
-        "cycle_position": 0.043,
+        "hardness_ratio": 0.01534,
+        "thermalization_index": 0.003,
+        "cycle_position": 0.004,
         "pattern": "BUILDING",
-        "summary": "System CHARGING. Hardness 0.0186, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
+        "summary": "System CHARGING. Hardness 0.0153, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
