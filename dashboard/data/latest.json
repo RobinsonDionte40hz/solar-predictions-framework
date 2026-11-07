@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-11-06T23:24:58.622621+00:00",
+  "timestamp": "2026-11-07T00:42:15.709902+00:00",
   "prediction": {
-    "expected_m": 1.0,
+    "expected_m": 0.6,
     "m_range": [
       0,
-      2
+      1
     ],
     "m_most_likely": 1,
-    "x_probability": 7.5,
+    "x_probability": 4.6,
     "c_range": [
-      4,
-      8
+      2,
+      6
     ],
     "primary_source": "AR4566",
     "primary_share_pct": 73.0,
@@ -19,13 +19,13 @@
     "confidence": 0.45
   },
   "budget": {
-    "expected_m_per_day": 1.0,
-    "expected_x_prob": 0.075,
-    "expected_c_per_day": 6.0,
+    "expected_m_per_day": 0.6,
+    "expected_x_prob": 0.046,
+    "expected_c_per_day": 4.0,
     "energy_state": "LOW",
     "confidence": 0.45,
     "estimator_agreement": "DIVERGENT",
-    "hardness_effect": 1.49,
+    "hardness_effect": 0.92,
     "components": {
       "sigma_log_est": 1.5,
       "f107_est": 0.1,
@@ -38,21 +38,21 @@
     "cycle_position": null,
     "n_flares": 0
   },
-  "f107": 100.0,
+  "f107": 98.0,
   "hardness": {
-    "ratio": 0.05567,
-    "state": "elevated",
+    "ratio": 0.02488,
+    "state": "low",
     "pattern": "BUILDING",
-    "thermalization_index": 0.407,
-    "trend": 0.1541
+    "thermalization_index": 0.099,
+    "trend": 0.1637
   },
   "production": {
     "avg_m_per_day": 0.1,
-    "avg_c_per_day": 3.6,
+    "avg_c_per_day": 3.9,
     "trend": "STABLE",
     "recent_3d": [
-      0,
       1,
+      0,
       0
     ],
     "total_m_7d": 1
@@ -82,9 +82,9 @@
       "weighted_capacity": 0.7404,
       "share": 0.7292,
       "is_dominant": true,
-      "expected_m_contribution": 0.73,
-      "m_probability": 0.518,
-      "x_probability": 0.0547
+      "expected_m_contribution": 0.44,
+      "m_probability": 0.354,
+      "x_probability": 0.0335
     },
     {
       "number": "4565",
@@ -102,9 +102,9 @@
       "weighted_capacity": 0.0965,
       "share": 0.095,
       "is_dominant": false,
-      "expected_m_contribution": 0.1,
-      "m_probability": 0.091,
-      "x_probability": 0.0071
+      "expected_m_contribution": 0.06,
+      "m_probability": 0.055,
+      "x_probability": 0.0044
     },
     {
       "number": "4567",
@@ -122,9 +122,9 @@
       "weighted_capacity": 0.0472,
       "share": 0.0465,
       "is_dominant": false,
-      "expected_m_contribution": 0.05,
-      "m_probability": 0.045,
-      "x_probability": 0.0035
+      "expected_m_contribution": 0.03,
+      "m_probability": 0.028,
+      "x_probability": 0.0021
     },
     {
       "number": "4569",
@@ -142,9 +142,9 @@
       "weighted_capacity": 0.0398,
       "share": 0.0392,
       "is_dominant": false,
-      "expected_m_contribution": 0.04,
-      "m_probability": 0.038,
-      "x_probability": 0.0029
+      "expected_m_contribution": 0.02,
+      "m_probability": 0.023,
+      "x_probability": 0.0018
     },
     {
       "number": "4568",
@@ -162,9 +162,9 @@
       "weighted_capacity": 0.0332,
       "share": 0.0327,
       "is_dominant": false,
-      "expected_m_contribution": 0.03,
-      "m_probability": 0.032,
-      "x_probability": 0.0025
+      "expected_m_contribution": 0.02,
+      "m_probability": 0.019,
+      "x_probability": 0.0015
     },
     {
       "number": "4564",
@@ -182,9 +182,9 @@
       "weighted_capacity": 0.0332,
       "share": 0.0327,
       "is_dominant": false,
-      "expected_m_contribution": 0.03,
-      "m_probability": 0.032,
-      "x_probability": 0.0025
+      "expected_m_contribution": 0.02,
+      "m_probability": 0.019,
+      "x_probability": 0.0015
     },
     {
       "number": "4570",
@@ -202,9 +202,9 @@
       "weighted_capacity": 0.0251,
       "share": 0.0247,
       "is_dominant": false,
-      "expected_m_contribution": 0.02,
-      "m_probability": 0.024,
-      "x_probability": 0.0019
+      "expected_m_contribution": 0.01,
+      "m_probability": 0.015,
+      "x_probability": 0.0011
     },
     {
       "number": "4562",
@@ -228,19 +228,13 @@
     }
   ],
   "xray": {
-    "flux": 2.301670747328899e-06,
-    "class": "C2.3",
-    "time": "2026-11-06T23:19:00Z"
+    "flux": 8.397246347158216e-07,
+    "class": "B8.4",
+    "time": "2026-11-07T00:36:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
-    "2026-10-30": {
-      "B": 1,
-      "C": 0,
-      "M": 0,
-      "X": 0
-    },
     "2026-10-31": {
       "B": 10,
       "C": 0,
@@ -279,7 +273,13 @@
     },
     "2026-11-06": {
       "B": 0,
-      "C": 21,
+      "C": 22,
+      "M": 0,
+      "X": 0
+    },
+    "2026-11-07": {
+      "B": 0,
+      "C": 1,
       "M": 0,
       "X": 0
     }
@@ -311,13 +311,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.301670747328899e-06
+    "flux": 8.397246347158216e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.26326707005500793
+      "flux": 0.20277634263038635
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -348,27 +348,27 @@
     },
     "meso": {
       "thermalization": {
-        "phase": "STORAGE",
+        "phase": "CHARGING",
         "phase_info": {
-          "description": "Significant stored energy. Magnetic structure complex.",
-          "flare_risk": "MODERATE",
+          "description": "Energy accumulating. Impedance structure building.",
+          "flare_risk": "LOW-MODERATE",
           "typical_duration_hours": [
-            4,
-            18
+            6,
+            24
           ]
         },
-        "next_phase": "THRESHOLD",
-        "what_comes_next": "Discharge imminent: watch for SOFTENING signature. When hardness drops from this elevated level, major flare likely within 30-90 minutes of the minimum.",
-        "flare_risk": "MODERATE",
+        "next_phase": "STORAGE",
+        "what_comes_next": "Approaching threshold: significant energy stored. If hardness exceeds 0.07, system enters pre-flare critical state.",
+        "flare_risk": "LOW-MODERATE",
         "estimated_hours_to_next_phase": [
-          4,
-          18
+          6,
+          24
         ],
-        "hardness_ratio": 0.05567,
-        "thermalization_index": 0.407,
-        "cycle_position": 0.478,
+        "hardness_ratio": 0.02488,
+        "thermalization_index": 0.099,
+        "cycle_position": 0.116,
         "pattern": "BUILDING",
-        "summary": "System in STORAGE. Hardness 0.0557 \u2014 significant stored energy. Approaching threshold. Moderate-high flare risk."
+        "summary": "System CHARGING. Hardness 0.0249, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
@@ -412,7 +412,7 @@
       },
       "confidence": 0.6,
       "horizon": "1-3 days",
-      "outlook": "Energy accumulating (STORAGE). M-class recharge: NO_RECENT_DATA. X-class recharge: NO_RECENT_DATA. Activity likely to increase over the next 1-2 days."
+      "outlook": "Energy accumulating (CHARGING). M-class recharge: NO_RECENT_DATA. X-class recharge: NO_RECENT_DATA. Activity likely to increase over the next 1-2 days."
     },
     "rotation": {
       "geometric_forecast": {
@@ -505,12 +505,12 @@
       "confidence": 0.7,
       "horizon": "months-years"
     },
-    "combined_outlook": "NEXT 6 HOURS (60% confidence):\n  Quiet. No recent significant activity to drive cascade.\n\nNEXT 1-3 DAYS (60% confidence):\n  Thermalization phase: STORAGE\n  Discharge imminent: watch for SOFTENING signature. When hardness drops from this elevated level, major flare likely within 30-90 minutes of the minimum.\n  Recharge: X-class: no recent events (window open) | M-class: no recent events (window open) | C-class: no recent events (window open)\n\nROTATION RETURN (35% confidence):\n  No significant region returns predicted.\n\nCYCLE OUTLOOK (70% confidence):\n  \u03c3_log: 0.91 \u2192 ~1.5 (est. 2029)\n  Trend: RISING_TO_MINIMUM\n  2026: \u03c3_log \u2248 1.07 \u2014 MODERATE \u2014 regular M-class, occasional X-class (~1.0 M/day)\n  2027: \u03c3_log \u2248 1.22 \u2014 LOW-MODERATE \u2014 occasional M-class (~0.2 M/day)\n  2028: \u03c3_log \u2248 1.41 \u2014 LOW \u2014 rare M-class (~0.1 M/day)"
+    "combined_outlook": "NEXT 6 HOURS (60% confidence):\n  Quiet. No recent significant activity to drive cascade.\n\nNEXT 1-3 DAYS (60% confidence):\n  Thermalization phase: CHARGING\n  Approaching threshold: significant energy stored. If hardness exceeds 0.07, system enters pre-flare critical state.\n  Recharge: X-class: no recent events (window open) | M-class: no recent events (window open) | C-class: no recent events (window open)\n\nROTATION RETURN (35% confidence):\n  No significant region returns predicted.\n\nCYCLE OUTLOOK (70% confidence):\n  \u03c3_log: 0.91 \u2192 ~1.5 (est. 2029)\n  Trend: RISING_TO_MINIMUM\n  2026: \u03c3_log \u2248 1.07 \u2014 MODERATE \u2014 regular M-class, occasional X-class (~1.0 M/day)\n  2027: \u03c3_log \u2248 1.22 \u2014 LOW-MODERATE \u2014 occasional M-class (~0.2 M/day)\n  2028: \u03c3_log \u2248 1.41 \u2014 LOW \u2014 rare M-class (~0.1 M/day)"
   },
   "far_side_estimate": {
-    "system_budget": 1.0,
+    "system_budget": 0.6,
     "earth_facing_output": 0.1,
-    "far_side_estimate": 0.9,
+    "far_side_estimate": 0.5,
     "note": "System budget - observed = likely far-side activity"
   }
 }
