@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08T01:25:00.735992+00:00",
+  "timestamp": "2026-11-08T02:28:03.075745+00:00",
   "prediction": {
     "expected_m": 1.1,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 95.0,
   "hardness": {
-    "ratio": 0.06687,
+    "ratio": 0.07351,
     "state": "high",
     "pattern": "STABLE",
-    "thermalization_index": 0.519,
-    "trend": -0.0549
+    "thermalization_index": 0.585,
+    "trend": -0.0468
   },
   "production": {
     "avg_m_per_day": 0.5,
-    "avg_c_per_day": 7.1,
+    "avg_c_per_day": 7.4,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -208,9 +208,9 @@
     }
   ],
   "xray": {
-    "flux": 3.45973626281193e-06,
-    "class": "C3.5",
-    "time": "2026-11-08T01:19:00Z"
+    "flux": 2.8225545065652113e-06,
+    "class": "C2.8",
+    "time": "2026-11-08T02:22:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -259,7 +259,7 @@
     },
     "2026-11-08": {
       "B": 0,
-      "C": 1,
+      "C": 3,
       "M": 0,
       "X": 0
     }
@@ -291,13 +291,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 3.45973626281193e-06
+    "flux": 2.8225545065652113e-06
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.23612339794635773
+      "flux": 0.2251763641834259
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -344,11 +344,11 @@
           1,
           8
         ],
-        "hardness_ratio": 0.06687,
-        "thermalization_index": 0.519,
-        "cycle_position": 0.61,
+        "hardness_ratio": 0.07351,
+        "thermalization_index": 0.585,
+        "cycle_position": 0.688,
         "pattern": "STABLE",
-        "summary": "System at THRESHOLD. Hardness 0.0669 \u2014 maximum energy storage. Watch for softening signature: if hardness drops >20% from this level, major flare likely within 30-90 minutes."
+        "summary": "System at THRESHOLD. Hardness 0.0735 \u2014 maximum energy storage. Watch for softening signature: if hardness drops >20% from this level, major flare likely within 30-90 minutes."
       },
       "recharge": {
         "by_class": {
