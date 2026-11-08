@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08T12:27:52.748777+00:00",
+  "timestamp": "2026-11-08T13:24:52.095259+00:00",
   "prediction": {
     "expected_m": 0.8,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 95.0,
   "hardness": {
-    "ratio": 0.0208,
+    "ratio": 0.02437,
     "state": "low",
     "pattern": "SOFTENING",
-    "thermalization_index": 0.058,
-    "trend": -0.3465
+    "thermalization_index": 0.094,
+    "trend": -0.3847
   },
   "production": {
     "avg_m_per_day": 0.6,
@@ -228,16 +228,16 @@
     }
   ],
   "xray": {
-    "flux": 1.2229171488797874e-06,
-    "class": "C1.2",
-    "time": "2026-11-08T12:23:00Z"
+    "flux": 1.034351726048044e-06,
+    "class": "C1.0",
+    "time": "2026-11-08T13:20:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-01": {
       "B": 2,
-      "C": 1,
+      "C": 0,
       "M": 0,
       "X": 0
     },
@@ -279,7 +279,7 @@
     },
     "2026-11-08": {
       "B": 0,
-      "C": 16,
+      "C": 17,
       "M": 1,
       "X": 0
     }
@@ -311,13 +311,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.2229171488797874e-06
+    "flux": 1.034351726048044e-06
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.1928788721561432
+      "flux": 0.1935613602399826
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -364,11 +364,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.0208,
-        "thermalization_index": 0.058,
-        "cycle_position": 0.068,
+        "hardness_ratio": 0.02437,
+        "thermalization_index": 0.094,
+        "cycle_position": 0.11,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0208 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0244 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
