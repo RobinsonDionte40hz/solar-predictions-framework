@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08T03:27:27.977861+00:00",
+  "timestamp": "2026-11-08T04:25:51.796582+00:00",
   "prediction": {
     "expected_m": 1.6,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 95.0,
   "hardness": {
-    "ratio": 0.17079,
+    "ratio": 0.10526,
     "state": "critical",
     "pattern": "BUILDING",
-    "thermalization_index": 1.0,
-    "trend": 0.4149
+    "thermalization_index": 0.903,
+    "trend": 0.924
   },
   "production": {
     "avg_m_per_day": 0.5,
-    "avg_c_per_day": 7.6,
+    "avg_c_per_day": 7.8,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -208,9 +208,9 @@
     }
   ],
   "xray": {
-    "flux": 8.32580917631276e-06,
-    "class": "C8.3",
-    "time": "2026-11-08T03:22:00Z"
+    "flux": 2.7513290206115926e-06,
+    "class": "C2.8",
+    "time": "2026-11-08T04:20:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -259,7 +259,7 @@
     },
     "2026-11-08": {
       "B": 0,
-      "C": 5,
+      "C": 6,
       "M": 0,
       "X": 0
     }
@@ -291,13 +291,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 8.32580917631276e-06
+    "flux": 2.7513290206115926e-06
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.19347316026687622
+      "flux": 0.20801419019699097
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -344,11 +344,11 @@
           1,
           8
         ],
-        "hardness_ratio": 0.17079,
-        "thermalization_index": 1.0,
+        "hardness_ratio": 0.10526,
+        "thermalization_index": 0.903,
         "cycle_position": 1.0,
         "pattern": "BUILDING",
-        "summary": "System at THRESHOLD. Hardness 0.1708 \u2014 maximum energy storage. Watch for softening signature: if hardness drops >20% from this level, major flare likely within 30-90 minutes."
+        "summary": "System at THRESHOLD. Hardness 0.1053 \u2014 maximum energy storage. Watch for softening signature: if hardness drops >20% from this level, major flare likely within 30-90 minutes."
       },
       "recharge": {
         "by_class": {
