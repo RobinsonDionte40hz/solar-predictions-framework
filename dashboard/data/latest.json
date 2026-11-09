@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T21:25:16.901520+00:00",
+  "timestamp": "2026-11-09T22:25:49.211470+00:00",
   "prediction": {
     "expected_m": 0.6,
     "m_range": [
@@ -9,8 +9,8 @@
     "m_most_likely": 1,
     "x_probability": 3.8,
     "c_range": [
-      2,
-      6
+      3,
+      7
     ],
     "primary_source": "AR4566",
     "primary_share_pct": 71.0,
@@ -21,7 +21,7 @@
   "budget": {
     "expected_m_per_day": 0.6,
     "expected_x_prob": 0.038,
-    "expected_c_per_day": 4.0,
+    "expected_c_per_day": 5.0,
     "energy_state": "LOW",
     "confidence": 0.45,
     "estimator_agreement": "DIVERGENT",
@@ -29,7 +29,7 @@
     "components": {
       "sigma_log_est": 1.5,
       "f107_est": 0.1,
-      "production_est": 0.7
+      "production_est": 0.8
     }
   },
   "sigma_log": {
@@ -40,15 +40,15 @@
   },
   "f107": 92.0,
   "hardness": {
-    "ratio": 0.0136,
+    "ratio": 0.0012,
     "state": "depleted",
     "pattern": "SOFTENING",
     "thermalization_index": 0.0,
-    "trend": -0.4865
+    "trend": -0.7967
   },
   "production": {
-    "avg_m_per_day": 0.9,
-    "avg_c_per_day": 12.2,
+    "avg_m_per_day": 1.0,
+    "avg_c_per_day": 14.0,
     "trend": "FALLING",
     "recent_3d": [
       3,
@@ -228,19 +228,13 @@
     }
   ],
   "xray": {
-    "flux": 1.1606937277974794e-06,
-    "class": "C1.2",
-    "time": "2026-11-09T21:20:00Z"
+    "flux": 8.212932129936235e-07,
+    "class": "B8.2",
+    "time": "2026-11-09T22:20:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
-    "2026-11-02": {
-      "B": 1,
-      "C": 0,
-      "M": 0,
-      "X": 0
-    },
     "2026-11-03": {
       "B": 4,
       "C": 1,
@@ -311,13 +305,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.1606937277974794e-06
+    "flux": 8.212932129936235e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.18675504624843597
+      "flux": 0.24794194102287292
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -364,11 +358,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.0136,
+        "hardness_ratio": 0.0012,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0136 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0012 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
@@ -509,7 +503,7 @@
   },
   "far_side_estimate": {
     "system_budget": 0.6,
-    "earth_facing_output": 0.9,
+    "earth_facing_output": 1.0,
     "far_side_estimate": 0,
     "note": "System budget - observed = likely far-side activity"
   }
