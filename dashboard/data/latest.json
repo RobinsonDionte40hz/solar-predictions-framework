@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T04:26:22.659470+00:00",
+  "timestamp": "2026-11-10T05:25:43.793028+00:00",
   "prediction": {
     "expected_m": 1.2,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 93.0,
   "hardness": {
-    "ratio": 0.04182,
+    "ratio": 0.05093,
     "state": "elevated",
     "pattern": "BUILDING",
-    "thermalization_index": 0.268,
-    "trend": 1.4284
+    "thermalization_index": 0.359,
+    "trend": 1.3634
   },
   "production": {
     "avg_m_per_day": 0.9,
@@ -228,9 +228,9 @@
     }
   ],
   "xray": {
-    "flux": 1.733795897962409e-06,
-    "class": "C1.7",
-    "time": "2026-11-10T04:21:00Z"
+    "flux": 1.2487389540183358e-06,
+    "class": "C1.2",
+    "time": "2026-11-10T05:21:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -311,13 +311,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.733795897962409e-06
+    "flux": 1.2487389540183358e-06
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.20332515239715576
+      "flux": 0.2101990431547165
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -364,11 +364,11 @@
           4,
           18
         ],
-        "hardness_ratio": 0.04182,
-        "thermalization_index": 0.268,
-        "cycle_position": 0.316,
+        "hardness_ratio": 0.05093,
+        "thermalization_index": 0.359,
+        "cycle_position": 0.423,
         "pattern": "BUILDING",
-        "summary": "System in STORAGE. Hardness 0.0418 \u2014 significant stored energy. Approaching threshold. Moderate-high flare risk."
+        "summary": "System in STORAGE. Hardness 0.0509 \u2014 significant stored energy. Approaching threshold. Moderate-high flare risk."
       },
       "recharge": {
         "by_class": {
