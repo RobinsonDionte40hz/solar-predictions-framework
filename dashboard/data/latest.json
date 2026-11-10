@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T06:33:24.301320+00:00",
+  "timestamp": "2026-11-10T07:25:21.883654+00:00",
   "prediction": {
     "expected_m": 1.2,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 93.0,
   "hardness": {
-    "ratio": 0.05722,
+    "ratio": 0.04167,
     "state": "elevated",
     "pattern": "BUILDING",
-    "thermalization_index": 0.422,
-    "trend": 1.0286
+    "thermalization_index": 0.267,
+    "trend": 0.5859
   },
   "production": {
     "avg_m_per_day": 0.9,
-    "avg_c_per_day": 13.0,
+    "avg_c_per_day": 13.2,
     "trend": "FALLING",
     "recent_3d": [
       3,
@@ -228,9 +228,9 @@
     }
   ],
   "xray": {
-    "flux": 1.6679522332196939e-06,
-    "class": "C1.7",
-    "time": "2026-11-10T06:29:00Z"
+    "flux": 1.7575019910509582e-06,
+    "class": "C1.8",
+    "time": "2026-11-10T07:20:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -279,7 +279,7 @@
     },
     "2026-11-10": {
       "B": 0,
-      "C": 4,
+      "C": 6,
       "M": 0,
       "X": 0
     }
@@ -311,13 +311,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.6679522332196939e-06
+    "flux": 1.7575019910509582e-06
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.24640917778015137
+      "flux": 0.20537643134593964
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -364,11 +364,11 @@
           4,
           18
         ],
-        "hardness_ratio": 0.05722,
-        "thermalization_index": 0.422,
-        "cycle_position": 0.497,
+        "hardness_ratio": 0.04167,
+        "thermalization_index": 0.267,
+        "cycle_position": 0.314,
         "pattern": "BUILDING",
-        "summary": "System in STORAGE. Hardness 0.0572 \u2014 significant stored energy. Approaching threshold. Moderate-high flare risk."
+        "summary": "System in STORAGE. Hardness 0.0417 \u2014 significant stored energy. Approaching threshold. Moderate-high flare risk."
       },
       "recharge": {
         "by_class": {
