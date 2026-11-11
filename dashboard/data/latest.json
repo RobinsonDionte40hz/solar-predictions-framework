@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11T14:25:57.979278+00:00",
+  "timestamp": "2026-11-11T15:24:53.412313+00:00",
   "prediction": {
     "expected_m": 0.8,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 92.0,
   "hardness": {
-    "ratio": 0.01718,
+    "ratio": 0.01977,
     "state": "low",
     "pattern": "BUILDING",
-    "thermalization_index": 0.022,
-    "trend": 1.0554
+    "thermalization_index": 0.048,
+    "trend": 3.2322
   },
   "production": {
     "avg_m_per_day": 0.9,
-    "avg_c_per_day": 14.2,
+    "avg_c_per_day": 14.4,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -268,15 +268,15 @@
     }
   ],
   "xray": {
-    "flux": 6.885463790240465e-07,
-    "class": "B6.9",
-    "time": "2026-11-11T14:20:00Z"
+    "flux": 6.367192213474482e-07,
+    "class": "B6.4",
+    "time": "2026-11-11T15:19:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-04": {
-      "B": 1,
+      "B": 0,
       "C": 1,
       "M": 0,
       "X": 0
@@ -319,7 +319,7 @@
     },
     "2026-11-11": {
       "B": 1,
-      "C": 2,
+      "C": 3,
       "M": 0,
       "X": 0
     }
@@ -351,13 +351,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 6.885463790240465e-07
+    "flux": 6.367192213474482e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.19638964533805847
+      "flux": 0.19515548646450043
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -404,11 +404,11 @@
           6,
           24
         ],
-        "hardness_ratio": 0.01718,
-        "thermalization_index": 0.022,
-        "cycle_position": 0.026,
+        "hardness_ratio": 0.01977,
+        "thermalization_index": 0.048,
+        "cycle_position": 0.056,
         "pattern": "BUILDING",
-        "summary": "System CHARGING. Hardness 0.0172, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
+        "summary": "System CHARGING. Hardness 0.0198, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
