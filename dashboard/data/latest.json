@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12T02:28:51.947509+00:00",
+  "timestamp": "2026-11-12T03:27:36.921408+00:00",
   "prediction": {
     "expected_m": 1.1,
     "m_range": [
@@ -7,10 +7,10 @@
       2
     ],
     "m_most_likely": 1,
-    "x_probability": 6.2,
+    "x_probability": 5.7,
     "c_range": [
       4,
-      10
+      8
     ],
     "primary_source": "AR4566",
     "primary_share_pct": 53.0,
@@ -20,12 +20,12 @@
   },
   "budget": {
     "expected_m_per_day": 1.1,
-    "expected_x_prob": 0.062,
-    "expected_c_per_day": 7.0,
+    "expected_x_prob": 0.057,
+    "expected_c_per_day": 6.0,
     "energy_state": "MODERATE",
     "confidence": 0.45,
     "estimator_agreement": "DIVERGENT",
-    "hardness_effect": 1.25,
+    "hardness_effect": 1.15,
     "components": {
       "sigma_log_est": 1.5,
       "f107_est": 0.1,
@@ -40,15 +40,15 @@
   },
   "f107": 92.0,
   "hardness": {
-    "ratio": 0.0314,
+    "ratio": 0.03147,
     "state": "moderate",
-    "pattern": "SOFTENING",
-    "thermalization_index": 0.164,
-    "trend": -0.3088
+    "pattern": "BUILDING",
+    "thermalization_index": 0.165,
+    "trend": 0.8906
   },
   "production": {
     "avg_m_per_day": 1.0,
-    "avg_c_per_day": 15.1,
+    "avg_c_per_day": 15.2,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -84,7 +84,7 @@
       "is_dominant": true,
       "expected_m_contribution": 0.59,
       "m_probability": 0.444,
-      "x_probability": 0.0331
+      "x_probability": 0.0304
     },
     {
       "number": "4568",
@@ -104,7 +104,7 @@
       "is_dominant": false,
       "expected_m_contribution": 0.13,
       "m_probability": 0.121,
-      "x_probability": 0.0073
+      "x_probability": 0.0067
     },
     {
       "number": "4573",
@@ -124,7 +124,7 @@
       "is_dominant": false,
       "expected_m_contribution": 0.12,
       "m_probability": 0.115,
-      "x_probability": 0.0069
+      "x_probability": 0.0063
     },
     {
       "number": "4574",
@@ -144,7 +144,7 @@
       "is_dominant": false,
       "expected_m_contribution": 0.09,
       "m_probability": 0.082,
-      "x_probability": 0.0048
+      "x_probability": 0.0044
     },
     {
       "number": "4570",
@@ -164,7 +164,7 @@
       "is_dominant": false,
       "expected_m_contribution": 0.05,
       "m_probability": 0.053,
-      "x_probability": 0.0031
+      "x_probability": 0.0028
     },
     {
       "number": "4572",
@@ -184,7 +184,7 @@
       "is_dominant": false,
       "expected_m_contribution": 0.05,
       "m_probability": 0.044,
-      "x_probability": 0.0026
+      "x_probability": 0.0024
     },
     {
       "number": "4569",
@@ -204,7 +204,7 @@
       "is_dominant": false,
       "expected_m_contribution": 0.04,
       "m_probability": 0.035,
-      "x_probability": 0.002
+      "x_probability": 0.0018
     },
     {
       "number": "4575",
@@ -224,7 +224,7 @@
       "is_dominant": false,
       "expected_m_contribution": 0.03,
       "m_probability": 0.031,
-      "x_probability": 0.0017
+      "x_probability": 0.0016
     },
     {
       "number": "4565",
@@ -244,7 +244,7 @@
       "is_dominant": false,
       "expected_m_contribution": 0.01,
       "m_probability": 0.01,
-      "x_probability": 0.0006
+      "x_probability": 0.0005
     },
     {
       "number": "4571",
@@ -268,9 +268,9 @@
     }
   ],
   "xray": {
-    "flux": 8.813335625745822e-07,
-    "class": "B8.8",
-    "time": "2026-11-12T02:24:00Z"
+    "flux": 6.878532303744578e-07,
+    "class": "B6.9",
+    "time": "2026-11-12T03:22:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -319,7 +319,7 @@
     },
     "2026-11-12": {
       "B": 0,
-      "C": 1,
+      "C": 2,
       "M": 0,
       "X": 0
     }
@@ -351,13 +351,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 8.813335625745822e-07
+    "flux": 6.878532303744578e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.20312167704105377
+      "flux": 0.20978674292564392
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -404,11 +404,11 @@
           6,
           24
         ],
-        "hardness_ratio": 0.0314,
-        "thermalization_index": 0.164,
-        "cycle_position": 0.193,
-        "pattern": "SOFTENING",
-        "summary": "System CHARGING. Hardness 0.0314, trend SOFTENING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
+        "hardness_ratio": 0.03147,
+        "thermalization_index": 0.165,
+        "cycle_position": 0.194,
+        "pattern": "BUILDING",
+        "summary": "System CHARGING. Hardness 0.0315, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
