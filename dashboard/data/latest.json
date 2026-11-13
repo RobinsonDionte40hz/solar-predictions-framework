@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13T11:25:38.797245+00:00",
+  "timestamp": "2026-11-13T12:30:32.811783+00:00",
   "prediction": {
     "expected_m": 0.9,
     "m_range": [
@@ -29,7 +29,7 @@
     "components": {
       "sigma_log_est": 1.5,
       "f107_est": 0.1,
-      "production_est": 1.0
+      "production_est": 0.9
     }
   },
   "sigma_log": {
@@ -40,19 +40,19 @@
   },
   "f107": 93.0,
   "hardness": {
-    "ratio": 0.0212,
+    "ratio": 0.02164,
     "state": "low",
     "pattern": "SOFTENING",
-    "thermalization_index": 0.062,
-    "trend": -0.6114
+    "thermalization_index": 0.066,
+    "trend": -0.4016
   },
   "production": {
-    "avg_m_per_day": 1.0,
-    "avg_c_per_day": 18.0,
+    "avg_m_per_day": 0.9,
+    "avg_c_per_day": 15.6,
     "trend": "STABLE",
     "recent_3d": [
-      0,
       1,
+      0,
       0
     ],
     "total_m_7d": 7
@@ -248,16 +248,16 @@
     }
   ],
   "xray": {
-    "flux": 8.962366564446711e-07,
-    "class": "B9.0",
-    "time": "2026-11-13T11:20:00Z"
+    "flux": 8.681568601787149e-07,
+    "class": "B8.7",
+    "time": "2026-11-13T12:25:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-06": {
       "B": 0,
-      "C": 15,
+      "C": 14,
       "M": 0,
       "X": 0
     },
@@ -296,6 +296,12 @@
       "C": 17,
       "M": 0,
       "X": 0
+    },
+    "2026-11-13": {
+      "B": 1,
+      "C": 0,
+      "M": 0,
+      "X": 0
     }
   },
   "recent_flares": [],
@@ -325,13 +331,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 8.962366564446711e-07
+    "flux": 8.681568601787149e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.21241827309131622
+      "flux": 0.21912795305252075
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -378,11 +384,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.0212,
-        "thermalization_index": 0.062,
-        "cycle_position": 0.073,
+        "hardness_ratio": 0.02164,
+        "thermalization_index": 0.066,
+        "cycle_position": 0.078,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0212 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0216 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
@@ -523,7 +529,7 @@
   },
   "far_side_estimate": {
     "system_budget": 0.9,
-    "earth_facing_output": 1.0,
+    "earth_facing_output": 0.9,
     "far_side_estimate": 0,
     "note": "System budget - observed = likely far-side activity"
   }
