@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13T14:25:53.167669+00:00",
+  "timestamp": "2026-11-13T15:24:55.429952+00:00",
   "prediction": {
     "expected_m": 1.0,
     "m_range": [
@@ -12,8 +12,8 @@
       4,
       8
     ],
-    "primary_source": "AR4576",
-    "primary_share_pct": 22.0,
+    "primary_source": "AR4577",
+    "primary_share_pct": 16.0,
     "topology_mode": "DISTRIBUTED",
     "energy_state": "MODERATE",
     "confidence": 0.45
@@ -40,11 +40,11 @@
   },
   "f107": 93.0,
   "hardness": {
-    "ratio": 0.03171,
+    "ratio": 0.02938,
     "state": "moderate",
     "pattern": "BUILDING",
-    "thermalization_index": 0.167,
-    "trend": 1.6314
+    "thermalization_index": 0.144,
+    "trend": 1.5616
   },
   "production": {
     "avg_m_per_day": 0.9,
@@ -61,11 +61,51 @@
     "mode": "DISTRIBUTED",
     "dominant_region": null,
     "n_active": 8,
-    "concentration": 0.152,
+    "concentration": 0.12,
     "has_complex": true,
-    "prime_zone_capacity": 0.691
+    "prime_zone_capacity": 0.786
   },
   "region_predictions": [
+    {
+      "number": "4577",
+      "area": 20,
+      "mag_class": "B",
+      "longitude": 18,
+      "latitude": -7,
+      "spots": 2,
+      "position_factor": 0.965,
+      "position_tomorrow": 0.998,
+      "improving": true,
+      "growth_rate": 0.0,
+      "raw_capacity": 0.1,
+      "growth_bonus": 1.0,
+      "weighted_capacity": 0.0965,
+      "share": 0.1551,
+      "is_dominant": false,
+      "expected_m_contribution": 0.16,
+      "m_probability": 0.144,
+      "x_probability": 0.0088
+    },
+    {
+      "number": "4578",
+      "area": 20,
+      "mag_class": "B",
+      "longitude": -21,
+      "latitude": -12,
+      "spots": 4,
+      "position_factor": 0.953,
+      "position_tomorrow": 0.876,
+      "improving": false,
+      "growth_rate": 0.0,
+      "raw_capacity": 0.1,
+      "growth_bonus": 1.0,
+      "weighted_capacity": 0.0953,
+      "share": 0.1531,
+      "is_dominant": false,
+      "expected_m_contribution": 0.15,
+      "m_probability": 0.142,
+      "x_probability": 0.0087
+    },
     {
       "number": "4576",
       "area": 50,
@@ -80,11 +120,11 @@
       "raw_capacity": 0.1,
       "growth_bonus": 1.0,
       "weighted_capacity": 0.0939,
-      "share": 0.2181,
+      "share": 0.1509,
       "is_dominant": false,
-      "expected_m_contribution": 0.22,
-      "m_probability": 0.196,
-      "x_probability": 0.0124
+      "expected_m_contribution": 0.15,
+      "m_probability": 0.14,
+      "x_probability": 0.0086
     },
     {
       "number": "4574",
@@ -100,11 +140,11 @@
       "raw_capacity": 0.1,
       "growth_bonus": 1.0,
       "weighted_capacity": 0.0898,
-      "share": 0.2086,
+      "share": 0.1443,
       "is_dominant": false,
-      "expected_m_contribution": 0.21,
-      "m_probability": 0.188,
-      "x_probability": 0.0119
+      "expected_m_contribution": 0.14,
+      "m_probability": 0.134,
+      "x_probability": 0.0082
     },
     {
       "number": "4566",
@@ -120,11 +160,11 @@
       "raw_capacity": 0.25,
       "growth_bonus": 1.0,
       "weighted_capacity": 0.0734,
-      "share": 0.1705,
+      "share": 0.1179,
       "is_dominant": false,
-      "expected_m_contribution": 0.17,
-      "m_probability": 0.157,
-      "x_probability": 0.0097
+      "expected_m_contribution": 0.12,
+      "m_probability": 0.111,
+      "x_probability": 0.0067
     },
     {
       "number": "4573",
@@ -140,11 +180,11 @@
       "raw_capacity": 0.04,
       "growth_bonus": 1.0,
       "weighted_capacity": 0.04,
-      "share": 0.0929,
+      "share": 0.0643,
       "is_dominant": false,
-      "expected_m_contribution": 0.09,
-      "m_probability": 0.089,
-      "x_probability": 0.0053
+      "expected_m_contribution": 0.06,
+      "m_probability": 0.062,
+      "x_probability": 0.0037
     },
     {
       "number": "4572",
@@ -160,11 +200,11 @@
       "raw_capacity": 0.04,
       "growth_bonus": 1.0,
       "weighted_capacity": 0.0392,
-      "share": 0.0911,
+      "share": 0.063,
       "is_dominant": false,
-      "expected_m_contribution": 0.09,
-      "m_probability": 0.087,
-      "x_probability": 0.0052
+      "expected_m_contribution": 0.06,
+      "m_probability": 0.061,
+      "x_probability": 0.0036
     },
     {
       "number": "4575",
@@ -180,11 +220,11 @@
       "raw_capacity": 0.04,
       "growth_bonus": 1.0,
       "weighted_capacity": 0.0345,
-      "share": 0.0801,
+      "share": 0.0554,
       "is_dominant": false,
-      "expected_m_contribution": 0.08,
-      "m_probability": 0.077,
-      "x_probability": 0.0046
+      "expected_m_contribution": 0.06,
+      "m_probability": 0.054,
+      "x_probability": 0.0032
     },
     {
       "number": "4570",
@@ -200,11 +240,11 @@
       "raw_capacity": 0.04,
       "growth_bonus": 1.0,
       "weighted_capacity": 0.0302,
-      "share": 0.0702,
+      "share": 0.0485,
       "is_dominant": false,
-      "expected_m_contribution": 0.07,
-      "m_probability": 0.068,
-      "x_probability": 0.004
+      "expected_m_contribution": 0.05,
+      "m_probability": 0.047,
+      "x_probability": 0.0028
     },
     {
       "number": "4568",
@@ -220,11 +260,11 @@
       "raw_capacity": 0.04,
       "growth_bonus": 1.0,
       "weighted_capacity": 0.0271,
-      "share": 0.063,
+      "share": 0.0435,
       "is_dominant": false,
-      "expected_m_contribution": 0.06,
-      "m_probability": 0.061,
-      "x_probability": 0.0036
+      "expected_m_contribution": 0.04,
+      "m_probability": 0.043,
+      "x_probability": 0.0025
     },
     {
       "number": "4569",
@@ -240,24 +280,24 @@
       "raw_capacity": 0.04,
       "growth_bonus": 1.0,
       "weighted_capacity": 0.0024,
-      "share": 0.0056,
+      "share": 0.0039,
       "is_dominant": false,
-      "expected_m_contribution": 0.01,
-      "m_probability": 0.006,
-      "x_probability": 0.0003
+      "expected_m_contribution": 0.0,
+      "m_probability": 0.004,
+      "x_probability": 0.0002
     }
   ],
   "xray": {
-    "flux": 1.1283806315987022e-06,
-    "class": "C1.1",
-    "time": "2026-11-13T14:20:00Z"
+    "flux": 8.274573701783083e-07,
+    "class": "B8.3",
+    "time": "2026-11-13T15:19:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-06": {
       "B": 0,
-      "C": 13,
+      "C": 12,
       "M": 0,
       "X": 0
     },
@@ -299,7 +339,7 @@
     },
     "2026-11-13": {
       "B": 1,
-      "C": 0,
+      "C": 1,
       "M": 0,
       "X": 0
     }
@@ -331,13 +371,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.1283806315987022e-06
+    "flux": 8.274573701783083e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.20889779925346375
+      "flux": 0.21509793400764465
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -384,11 +424,11 @@
           6,
           24
         ],
-        "hardness_ratio": 0.03171,
-        "thermalization_index": 0.167,
-        "cycle_position": 0.197,
+        "hardness_ratio": 0.02938,
+        "thermalization_index": 0.144,
+        "cycle_position": 0.169,
         "pattern": "BUILDING",
-        "summary": "System CHARGING. Hardness 0.0317, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
+        "summary": "System CHARGING. Hardness 0.0294, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
