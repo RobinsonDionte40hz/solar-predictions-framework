@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16T16:27:32.369784+00:00",
+  "timestamp": "2026-11-16T17:26:44.539372+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 113.0,
   "hardness": {
-    "ratio": 0.02076,
+    "ratio": 0.02457,
     "state": "low",
     "pattern": "BUILDING",
-    "thermalization_index": 0.058,
-    "trend": 1.3124
+    "thermalization_index": 0.096,
+    "trend": 2.2314
   },
   "production": {
     "avg_m_per_day": 0.1,
-    "avg_c_per_day": 8.1,
+    "avg_c_per_day": 8.0,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -268,16 +268,16 @@
     }
   ],
   "xray": {
-    "flux": 6.92400476509647e-07,
-    "class": "B6.9",
-    "time": "2026-11-16T16:22:00Z"
+    "flux": 9.63301090450841e-07,
+    "class": "B9.6",
+    "time": "2026-11-16T17:22:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-09": {
       "B": 0,
-      "C": 5,
+      "C": 4,
       "M": 0,
       "X": 0
     },
@@ -351,13 +351,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 6.92400476509647e-07
+    "flux": 9.63301090450841e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.210239440202713
+      "flux": 0.1763259917497635
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -404,11 +404,11 @@
           6,
           24
         ],
-        "hardness_ratio": 0.02076,
-        "thermalization_index": 0.058,
-        "cycle_position": 0.068,
+        "hardness_ratio": 0.02457,
+        "thermalization_index": 0.096,
+        "cycle_position": 0.113,
         "pattern": "BUILDING",
-        "summary": "System CHARGING. Hardness 0.0208, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
+        "summary": "System CHARGING. Hardness 0.0246, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
