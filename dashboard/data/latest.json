@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16T03:34:06.353627+00:00",
+  "timestamp": "2026-11-16T04:32:58.481530+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 113.0,
   "hardness": {
-    "ratio": 0.01961,
+    "ratio": 0.02142,
     "state": "low",
     "pattern": "BUILDING",
-    "thermalization_index": 0.046,
-    "trend": 0.5216
+    "thermalization_index": 0.064,
+    "trend": 0.6904
   },
   "production": {
     "avg_m_per_day": 0.1,
-    "avg_c_per_day": 9.7,
+    "avg_c_per_day": 9.3,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -288,16 +288,16 @@
     }
   ],
   "xray": {
-    "flux": 5.223219545769098e-07,
-    "class": "B5.2",
-    "time": "2026-11-16T03:28:00Z"
+    "flux": 5.66424205317162e-07,
+    "class": "B5.7",
+    "time": "2026-11-16T04:28:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-09": {
       "B": 0,
-      "C": 13,
+      "C": 10,
       "M": 0,
       "X": 0
     },
@@ -365,13 +365,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 5.223219545769098e-07
+    "flux": 5.66424205317162e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.2239714115858078
+      "flux": 0.20966295897960663
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -418,11 +418,11 @@
           6,
           24
         ],
-        "hardness_ratio": 0.01961,
-        "thermalization_index": 0.046,
-        "cycle_position": 0.054,
+        "hardness_ratio": 0.02142,
+        "thermalization_index": 0.064,
+        "cycle_position": 0.076,
         "pattern": "BUILDING",
-        "summary": "System CHARGING. Hardness 0.0196, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
+        "summary": "System CHARGING. Hardness 0.0214, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
