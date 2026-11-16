@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-16T17:26:44.539372+00:00",
+  "timestamp": "2026-11-16T18:28:30.244357+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 113.0,
   "hardness": {
-    "ratio": 0.02457,
+    "ratio": 0.01526,
     "state": "low",
     "pattern": "BUILDING",
-    "thermalization_index": 0.096,
-    "trend": 2.2314
+    "thermalization_index": 0.003,
+    "trend": 4.7509
   },
   "production": {
     "avg_m_per_day": 0.1,
@@ -268,16 +268,16 @@
     }
   ],
   "xray": {
-    "flux": 9.63301090450841e-07,
-    "class": "B9.6",
-    "time": "2026-11-16T17:22:00Z"
+    "flux": 6.467154207712156e-07,
+    "class": "B6.5",
+    "time": "2026-11-16T18:23:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-09": {
       "B": 0,
-      "C": 4,
+      "C": 3,
       "M": 0,
       "X": 0
     },
@@ -318,8 +318,8 @@
       "X": 0
     },
     "2026-11-16": {
-      "B": 2,
-      "C": 5,
+      "B": 3,
+      "C": 6,
       "M": 0,
       "X": 0
     }
@@ -351,13 +351,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 9.63301090450841e-07
+    "flux": 6.467154207712156e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.1763259917497635
+      "flux": 0.23766976594924927
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -404,11 +404,11 @@
           6,
           24
         ],
-        "hardness_ratio": 0.02457,
-        "thermalization_index": 0.096,
-        "cycle_position": 0.113,
+        "hardness_ratio": 0.01526,
+        "thermalization_index": 0.003,
+        "cycle_position": 0.003,
         "pattern": "BUILDING",
-        "summary": "System CHARGING. Hardness 0.0246, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
+        "summary": "System CHARGING. Hardness 0.0153, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
