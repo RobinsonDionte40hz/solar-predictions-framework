@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-19T15:25:51.250248+00:00",
+  "timestamp": "2026-11-19T16:26:27.223042+00:00",
   "prediction": {
     "expected_m": 1.0,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 121.0,
   "hardness": {
-    "ratio": 0.02175,
+    "ratio": 0.01647,
     "state": "low",
     "pattern": "BUILDING",
-    "thermalization_index": 0.067,
-    "trend": 3.6742
+    "thermalization_index": 0.015,
+    "trend": 0.6244
   },
   "production": {
     "avg_m_per_day": 0.5,
-    "avg_c_per_day": 7.9,
+    "avg_c_per_day": 7.8,
     "trend": "STABLE",
     "recent_3d": [
       2,
@@ -207,26 +207,6 @@
       "x_probability": 0.0009
     },
     {
-      "number": "4578",
-      "area": 70,
-      "mag_class": "BG",
-      "longitude": -100,
-      "latitude": -11,
-      "spots": 13,
-      "position_factor": 0.0,
-      "position_tomorrow": 0.0,
-      "improving": false,
-      "growth_rate": 0.0,
-      "raw_capacity": 0.4,
-      "growth_bonus": 1.0,
-      "weighted_capacity": 0.0,
-      "share": 0.0,
-      "is_dominant": false,
-      "expected_m_contribution": 0.0,
-      "m_probability": 0.0,
-      "x_probability": 0.0
-    },
-    {
       "number": "4576",
       "area": 70,
       "mag_class": "B",
@@ -245,19 +225,39 @@
       "expected_m_contribution": 0.0,
       "m_probability": 0.0,
       "x_probability": 0.0
+    },
+    {
+      "number": "4578",
+      "area": 70,
+      "mag_class": "BG",
+      "longitude": -100,
+      "latitude": -11,
+      "spots": 13,
+      "position_factor": 0.0,
+      "position_tomorrow": 0.0,
+      "improving": false,
+      "growth_rate": 0.0,
+      "raw_capacity": 0.4,
+      "growth_bonus": 1.0,
+      "weighted_capacity": 0.0,
+      "share": 0.0,
+      "is_dominant": false,
+      "expected_m_contribution": 0.0,
+      "m_probability": 0.0,
+      "x_probability": 0.0
     }
   ],
   "xray": {
-    "flux": 1.910419314299361e-06,
-    "class": "C1.9",
-    "time": "2026-11-19T15:20:00Z"
+    "flux": 1.1323953685860033e-06,
+    "class": "C1.1",
+    "time": "2026-11-19T16:21:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-12": {
       "B": 0,
-      "C": 3,
+      "C": 2,
       "M": 0,
       "X": 0
     },
@@ -331,13 +331,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.910419314299361e-06
+    "flux": 1.1323953685860033e-06
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.2415742427110672
+      "flux": 0.21250101923942566
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -384,11 +384,11 @@
           6,
           24
         ],
-        "hardness_ratio": 0.02175,
-        "thermalization_index": 0.067,
-        "cycle_position": 0.079,
+        "hardness_ratio": 0.01647,
+        "thermalization_index": 0.015,
+        "cycle_position": 0.017,
         "pattern": "BUILDING",
-        "summary": "System CHARGING. Hardness 0.0217, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
+        "summary": "System CHARGING. Hardness 0.0165, trend BUILDING. Energy accumulating in active regions. Estimated 6-24h to storage/threshold."
       },
       "recharge": {
         "by_class": {
