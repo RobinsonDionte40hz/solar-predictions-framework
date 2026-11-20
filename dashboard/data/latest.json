@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20T02:28:43.891075+00:00",
+  "timestamp": "2026-11-20T03:28:33.112716+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 132.0,
   "hardness": {
-    "ratio": 0.00483,
+    "ratio": 0.00634,
     "state": "depleted",
     "pattern": "BUILDING",
     "thermalization_index": 0.0,
-    "trend": 0.4551
+    "trend": 0.1239
   },
   "production": {
     "avg_m_per_day": 0.6,
@@ -207,26 +207,6 @@
       "x_probability": 0.0006
     },
     {
-      "number": "4576",
-      "area": 70,
-      "mag_class": "B",
-      "longitude": -106,
-      "latitude": -19,
-      "spots": 11,
-      "position_factor": 0.0,
-      "position_tomorrow": 0.0,
-      "improving": false,
-      "growth_rate": 0.0,
-      "raw_capacity": 0.16,
-      "growth_bonus": 1.0,
-      "weighted_capacity": 0.0,
-      "share": 0.0,
-      "is_dominant": false,
-      "expected_m_contribution": 0.0,
-      "m_probability": 0.0,
-      "x_probability": 0.0
-    },
-    {
       "number": "4578",
       "area": 70,
       "mag_class": "BG",
@@ -245,12 +225,32 @@
       "expected_m_contribution": 0.0,
       "m_probability": 0.0,
       "x_probability": 0.0
+    },
+    {
+      "number": "4576",
+      "area": 70,
+      "mag_class": "B",
+      "longitude": -106,
+      "latitude": -19,
+      "spots": 11,
+      "position_factor": 0.0,
+      "position_tomorrow": 0.0,
+      "improving": false,
+      "growth_rate": 0.0,
+      "raw_capacity": 0.16,
+      "growth_bonus": 1.0,
+      "weighted_capacity": 0.0,
+      "share": 0.0,
+      "is_dominant": false,
+      "expected_m_contribution": 0.0,
+      "m_probability": 0.0,
+      "x_probability": 0.0
     }
   ],
   "xray": {
-    "flux": 3.9069740864761116e-07,
-    "class": "B3.9",
-    "time": "2026-11-20T02:23:00Z"
+    "flux": 4.0560504999120894e-07,
+    "class": "B4.1",
+    "time": "2026-11-20T03:23:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -325,13 +325,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 3.9069740864761116e-07
+    "flux": 4.0560504999120894e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.18954360485076904
+      "flux": 0.20022986829280853
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -378,11 +378,11 @@
           6,
           48
         ],
-        "hardness_ratio": 0.00483,
+        "hardness_ratio": 0.00634,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "BUILDING",
-        "summary": "System at EQUILIBRIUM. Hardness 0.0048 (near black body thermal). Minimal stored energy. Must charge before next significant activity."
+        "summary": "System at EQUILIBRIUM. Hardness 0.0063 (near black body thermal). Minimal stored energy. Must charge before next significant activity."
       },
       "recharge": {
         "by_class": {
