@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23T04:29:48.963739+00:00",
+  "timestamp": "2026-11-23T05:27:58.882620+00:00",
   "prediction": {
     "expected_m": 0.6,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.0051,
+    "ratio": 0.00868,
     "state": "depleted",
     "pattern": "STABLE",
     "thermalization_index": 0.0,
-    "trend": 0.0831
+    "trend": 0.0495
   },
   "production": {
     "avg_m_per_day": 0.6,
@@ -188,9 +188,9 @@
     }
   ],
   "xray": {
-    "flux": 1.9765278125305485e-07,
-    "class": "B2.0",
-    "time": "2026-11-23T04:24:00Z"
+    "flux": 2.57642113865586e-07,
+    "class": "B2.6",
+    "time": "2026-11-23T05:23:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -265,13 +265,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.9765278125305485e-07
+    "flux": 2.57642113865586e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.22280500829219818
+      "flux": 0.21629637479782104
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -318,11 +318,11 @@
           6,
           48
         ],
-        "hardness_ratio": 0.0051,
+        "hardness_ratio": 0.00868,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "STABLE",
-        "summary": "System at EQUILIBRIUM. Hardness 0.0051 (near black body thermal). Minimal stored energy. Must charge before next significant activity."
+        "summary": "System at EQUILIBRIUM. Hardness 0.0087 (near black body thermal). Minimal stored energy. Must charge before next significant activity."
       },
       "recharge": {
         "by_class": {
