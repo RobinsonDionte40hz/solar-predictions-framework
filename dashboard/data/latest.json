@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23T07:28:52.813417+00:00",
+  "timestamp": "2026-11-23T08:32:19.397462+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -12,8 +12,8 @@
       3,
       7
     ],
-    "primary_source": "AR4579",
-    "primary_share_pct": 60.0,
+    "primary_source": "AR4581",
+    "primary_share_pct": 62.0,
     "topology_mode": "FOCUSED",
     "energy_state": "LOW",
     "confidence": 0.45
@@ -40,11 +40,11 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.0055,
+    "ratio": 0.00679,
     "state": "depleted",
     "pattern": "BUILDING",
     "thermalization_index": 0.0,
-    "trend": 0.2857
+    "trend": 0.435
   },
   "production": {
     "avg_m_per_day": 0.5,
@@ -59,13 +59,33 @@
   },
   "topology": {
     "mode": "FOCUSED",
-    "dominant_region": "4579",
+    "dominant_region": "4581",
     "n_active": 2,
-    "concentration": 0.52,
+    "concentration": 0.531,
     "has_complex": false,
-    "prime_zone_capacity": 0.399
+    "prime_zone_capacity": 0.625
   },
   "region_predictions": [
+    {
+      "number": "4581",
+      "area": 50,
+      "mag_class": "B",
+      "longitude": -22,
+      "latitude": -7,
+      "spots": 4,
+      "position_factor": 0.948,
+      "position_tomorrow": 0.868,
+      "improving": false,
+      "growth_rate": 0.0,
+      "raw_capacity": 0.1,
+      "growth_bonus": 1.0,
+      "weighted_capacity": 0.0948,
+      "share": 0.6245,
+      "is_dominant": true,
+      "expected_m_contribution": 0.44,
+      "m_probability": 0.354,
+      "x_probability": 0.02
+    },
     {
       "number": "4579",
       "area": 130,
@@ -80,31 +100,11 @@
       "raw_capacity": 0.08,
       "growth_bonus": 1.0,
       "weighted_capacity": 0.057,
-      "share": 0.6006,
-      "is_dominant": true,
-      "expected_m_contribution": 0.42,
-      "m_probability": 0.343,
-      "x_probability": 0.02
-    },
-    {
-      "number": "4581",
-      "area": 50,
-      "mag_class": "A",
-      "longitude": -22,
-      "latitude": -7,
-      "spots": 4,
-      "position_factor": 0.948,
-      "position_tomorrow": 0.868,
-      "improving": false,
-      "growth_rate": 0.0,
-      "raw_capacity": 0.04,
-      "growth_bonus": 1.0,
-      "weighted_capacity": 0.0379,
-      "share": 0.3994,
+      "share": 0.3755,
       "is_dominant": false,
-      "expected_m_contribution": 0.28,
-      "m_probability": 0.244,
-      "x_probability": 0.0136
+      "expected_m_contribution": 0.26,
+      "m_probability": 0.231,
+      "x_probability": 0.0128
     },
     {
       "number": "4574",
@@ -148,9 +148,9 @@
     }
   ],
   "xray": {
-    "flux": 1.8185697570061166e-07,
-    "class": "B1.8",
-    "time": "2026-11-23T07:23:00Z"
+    "flux": 1.8980372828991676e-07,
+    "class": "B1.9",
+    "time": "2026-11-23T08:27:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -231,13 +231,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.8185697570061166e-07
+    "flux": 1.8980372828991676e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.2508309781551361
+      "flux": 0.21890804171562195
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -284,11 +284,11 @@
           6,
           48
         ],
-        "hardness_ratio": 0.0055,
+        "hardness_ratio": 0.00679,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "BUILDING",
-        "summary": "System at EQUILIBRIUM. Hardness 0.0055 (near black body thermal). Minimal stored energy. Must charge before next significant activity."
+        "summary": "System at EQUILIBRIUM. Hardness 0.0068 (near black body thermal). Minimal stored energy. Must charge before next significant activity."
       },
       "recharge": {
         "by_class": {
