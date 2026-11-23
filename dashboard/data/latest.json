@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23T21:26:11.247872+00:00",
+  "timestamp": "2026-11-23T22:26:00.778010+00:00",
   "prediction": {
     "expected_m": 0.8,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.00624,
+    "ratio": 0.00598,
     "state": "depleted",
     "pattern": "SOFTENING",
     "thermalization_index": 0.0,
-    "trend": -0.1766
+    "trend": -0.1006
   },
   "production": {
     "avg_m_per_day": 0.5,
-    "avg_c_per_day": 5.0,
+    "avg_c_per_day": 4.9,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -148,16 +148,16 @@
     }
   ],
   "xray": {
-    "flux": 1.6064910823843093e-07,
-    "class": "B1.6",
-    "time": "2026-11-23T21:21:00Z"
+    "flux": 1.6777811140400445e-07,
+    "class": "B1.7",
+    "time": "2026-11-23T22:20:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-16": {
       "B": 0,
-      "C": 2,
+      "C": 1,
       "M": 0,
       "X": 0
     },
@@ -231,13 +231,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.6064910823843093e-07
+    "flux": 1.6777811140400445e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.2237963080406189
+      "flux": 0.22415514290332794
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -284,11 +284,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.00624,
+        "hardness_ratio": 0.00598,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0062 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0060 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
