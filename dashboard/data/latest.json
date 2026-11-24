@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24T16:28:09.520374+00:00",
+  "timestamp": "2026-11-24T17:25:25.622316+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.01072,
+    "ratio": 0.01074,
     "state": "depleted",
     "pattern": "BUILDING",
     "thermalization_index": 0.0,
-    "trend": 0.1471
+    "trend": 0.1932
   },
   "production": {
     "avg_m_per_day": 0.4,
@@ -128,9 +128,9 @@
     }
   ],
   "xray": {
-    "flux": 1.3067726456483797e-07,
-    "class": "B1.3",
-    "time": "2026-11-24T16:23:00Z"
+    "flux": 1.6156404569755978e-07,
+    "class": "B1.6",
+    "time": "2026-11-24T17:20:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -211,13 +211,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.3067726456483797e-07
+    "flux": 1.6156404569755978e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.23015323281288147
+      "flux": 0.21585029363632202
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -264,7 +264,7 @@
           6,
           48
         ],
-        "hardness_ratio": 0.01072,
+        "hardness_ratio": 0.01074,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "BUILDING",
