@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24T10:24:56.617412+00:00",
+  "timestamp": "2026-11-24T11:26:10.602557+00:00",
   "prediction": {
     "expected_m": 0.8,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.0085,
+    "ratio": 0.01237,
     "state": "depleted",
     "pattern": "SOFTENING",
     "thermalization_index": 0.0,
-    "trend": -0.2954
+    "trend": -0.3148
   },
   "production": {
     "avg_m_per_day": 0.5,
-    "avg_c_per_day": 4.2,
+    "avg_c_per_day": 4.1,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -128,16 +128,16 @@
     }
   ],
   "xray": {
-    "flux": 1.3147642619060207e-07,
-    "class": "B1.3",
-    "time": "2026-11-24T10:20:00Z"
+    "flux": 1.37849653469857e-07,
+    "class": "B1.4",
+    "time": "2026-11-24T11:20:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-17": {
       "B": 0,
-      "C": 10,
+      "C": 9,
       "M": 2,
       "X": 0
     },
@@ -211,13 +211,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.3147642619060207e-07
+    "flux": 1.37849653469857e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.21747444570064545
+      "flux": 0.21277065575122833
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -264,11 +264,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.0085,
+        "hardness_ratio": 0.01237,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0085 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0124 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
