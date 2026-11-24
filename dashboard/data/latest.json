@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-23T23:25:13.169216+00:00",
+  "timestamp": "2026-11-24T00:41:32.498404+00:00",
   "prediction": {
     "expected_m": 0.6,
     "m_range": [
@@ -29,7 +29,7 @@
     "components": {
       "sigma_log_est": 1.5,
       "f107_est": 1.0,
-      "production_est": 0.5
+      "production_est": 0.6
     }
   },
   "sigma_log": {
@@ -40,15 +40,15 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.00504,
+    "ratio": 0.00572,
     "state": "depleted",
     "pattern": "STABLE",
     "thermalization_index": 0.0,
-    "trend": -0.0306
+    "trend": 0.033
   },
   "production": {
-    "avg_m_per_day": 0.5,
-    "avg_c_per_day": 4.9,
+    "avg_m_per_day": 0.6,
+    "avg_c_per_day": 5.3,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -148,22 +148,16 @@
     }
   ],
   "xray": {
-    "flux": 2.0842186643221794e-07,
-    "class": "B2.1",
-    "time": "2026-11-23T23:20:00Z"
+    "flux": 1.8125206224794965e-07,
+    "class": "B1.8",
+    "time": "2026-11-24T00:36:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
-    "2026-11-16": {
-      "B": 0,
-      "C": 1,
-      "M": 0,
-      "X": 0
-    },
     "2026-11-17": {
       "B": 0,
-      "C": 14,
+      "C": 13,
       "M": 2,
       "X": 0
     },
@@ -198,7 +192,7 @@
       "X": 0
     },
     "2026-11-23": {
-      "B": 4,
+      "B": 5,
       "C": 0,
       "M": 0,
       "X": 0
@@ -231,13 +225,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.0842186643221794e-07
+    "flux": 1.8125206224794965e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.20815236866474152
+      "flux": 0.20681744813919067
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -284,11 +278,11 @@
           6,
           48
         ],
-        "hardness_ratio": 0.00504,
+        "hardness_ratio": 0.00572,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "STABLE",
-        "summary": "System at EQUILIBRIUM. Hardness 0.0050 (near black body thermal). Minimal stored energy. Must charge before next significant activity."
+        "summary": "System at EQUILIBRIUM. Hardness 0.0057 (near black body thermal). Minimal stored energy. Must charge before next significant activity."
       },
       "recharge": {
         "by_class": {
@@ -429,8 +423,8 @@
   },
   "far_side_estimate": {
     "system_budget": 0.6,
-    "earth_facing_output": 0.5,
-    "far_side_estimate": 0.1,
+    "earth_facing_output": 0.6,
+    "far_side_estimate": 0,
     "note": "System budget - observed = likely far-side activity"
   }
 }
