@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-24T23:25:15.435650+00:00",
+  "timestamp": "2026-11-25T00:46:01.276959+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -40,15 +40,15 @@
   },
   "f107": 124.0,
   "hardness": {
-    "ratio": 0.00793,
+    "ratio": 0.01106,
     "state": "depleted",
     "pattern": "SOFTENING",
     "thermalization_index": 0.0,
-    "trend": -0.6169
+    "trend": -0.5829
   },
   "production": {
     "avg_m_per_day": 0.3,
-    "avg_c_per_day": 3.4,
+    "avg_c_per_day": 3.3,
     "trend": "STABLE",
     "recent_3d": [
       0,
@@ -112,7 +112,7 @@
       "mag_class": "A",
       "longitude": -34,
       "latitude": -7,
-      "spots": 1,
+      "spots": 2,
       "position_factor": 0.877,
       "position_tomorrow": 0.763,
       "improving": false,
@@ -128,16 +128,16 @@
     }
   ],
   "xray": {
-    "flux": 1.275831920111159e-07,
-    "class": "B1.3",
-    "time": "2026-11-24T23:20:00Z"
+    "flux": 1.54121096329618e-07,
+    "class": "B1.5",
+    "time": "2026-11-25T00:41:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-18": {
       "B": 0,
-      "C": 15,
+      "C": 14,
       "M": 0,
       "X": 0
     },
@@ -205,13 +205,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 1.275831920111159e-07
+    "flux": 1.54121096329618e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.20867913961410522
+      "flux": 0.2535149157047272
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -258,11 +258,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.00793,
+        "hardness_ratio": 0.01106,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0079 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0111 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
