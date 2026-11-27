@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T08:29:42.649792+00:00",
+  "timestamp": "2026-11-27T09:27:23.587199+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 128.0,
   "hardness": {
-    "ratio": 0.00519,
+    "ratio": 0.00426,
     "state": "depleted",
     "pattern": "SOFTENING",
     "thermalization_index": 0.0,
-    "trend": -0.6024
+    "trend": -0.7672
   },
   "production": {
     "avg_m_per_day": 0.0,
@@ -128,15 +128,15 @@
     }
   ],
   "xray": {
-    "flux": 2.1772741831682652e-07,
-    "class": "B2.2",
-    "time": "2026-11-27T08:24:00Z"
+    "flux": 2.4200164716603467e-07,
+    "class": "B2.4",
+    "time": "2026-11-27T09:22:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-20": {
-      "B": 6,
+      "B": 4,
       "C": 1,
       "M": 0,
       "X": 0
@@ -211,13 +211,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.1772741831682652e-07
+    "flux": 2.4200164716603467e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.18246765434741974
+      "flux": 0.19476629793643951
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -264,11 +264,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.00519,
+        "hardness_ratio": 0.00426,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0052 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0043 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
