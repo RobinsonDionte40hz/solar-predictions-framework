@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T16:26:59.291760+00:00",
+  "timestamp": "2026-11-27T17:26:11.217327+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 128.0,
   "hardness": {
-    "ratio": 0.00985,
+    "ratio": 0.00548,
     "state": "depleted",
     "pattern": "SOFTENING",
     "thermalization_index": 0.0,
-    "trend": -0.1608
+    "trend": -0.3844
   },
   "production": {
     "avg_m_per_day": 0.0,
@@ -168,15 +168,15 @@
     }
   ],
   "xray": {
-    "flux": 2.5964439487324853e-07,
-    "class": "B2.6",
-    "time": "2026-11-27T16:22:00Z"
+    "flux": 2.5088084498747776e-07,
+    "class": "B2.5",
+    "time": "2026-11-27T17:21:00Z"
   },
   "solar_wind": null,
   "imf": null,
   "flare_counts": {
     "2026-11-20": {
-      "B": 4,
+      "B": 2,
       "C": 0,
       "M": 0,
       "X": 0
@@ -218,7 +218,7 @@
       "X": 0
     },
     "2026-11-27": {
-      "B": 5,
+      "B": 7,
       "C": 1,
       "M": 0,
       "X": 0
@@ -251,13 +251,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.5964439487324853e-07
+    "flux": 2.5088084498747776e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.22982129454612732
+      "flux": 0.19977842271327972
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -304,11 +304,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.00985,
+        "hardness_ratio": 0.00548,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0098 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0055 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
