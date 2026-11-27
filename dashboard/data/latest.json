@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T07:27:29.561928+00:00",
+  "timestamp": "2026-11-27T08:29:42.649792+00:00",
   "prediction": {
     "expected_m": 0.7,
     "m_range": [
@@ -40,11 +40,11 @@
   },
   "f107": 128.0,
   "hardness": {
-    "ratio": 0.00636,
+    "ratio": 0.00519,
     "state": "depleted",
     "pattern": "SOFTENING",
     "thermalization_index": 0.0,
-    "trend": -0.459
+    "trend": -0.6024
   },
   "production": {
     "avg_m_per_day": 0.0,
@@ -128,9 +128,9 @@
     }
   ],
   "xray": {
-    "flux": 2.9113880373188294e-07,
-    "class": "B2.9",
-    "time": "2026-11-27T07:23:00Z"
+    "flux": 2.1772741831682652e-07,
+    "class": "B2.2",
+    "time": "2026-11-27T08:24:00Z"
   },
   "solar_wind": null,
   "imf": null,
@@ -211,13 +211,13 @@
   "r_scale": {
     "scale": "R0",
     "label": "NONE",
-    "flux": 2.9113880373188294e-07
+    "flux": 2.1772741831682652e-07
   },
   "proton_environment": {
     "current": {
       "scale": "S0",
       "label": "NONE",
-      "flux": 0.21052373945713043
+      "flux": 0.18246765434741974
     },
     "trend": "BACKGROUND",
     "forecast": {
@@ -264,11 +264,11 @@
           4,
           24
         ],
-        "hardness_ratio": 0.00636,
+        "hardness_ratio": 0.00519,
         "thermalization_index": 0.0,
         "cycle_position": 0.0,
         "pattern": "SOFTENING",
-        "summary": "System in RECOVERY (post-flare). Hardness 0.0064 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
+        "summary": "System in RECOVERY (post-flare). Hardness 0.0052 (near thermal baseline). Energy depleted \u2014 recharging required before next significant event. Estimated ~4-24h in this phase."
       },
       "recharge": {
         "by_class": {
@@ -333,7 +333,7 @@
         "peak_year": 2024,
         "peak_sigma": 0.847,
         "current_sigma": 0.91,
-        "current_year": 2026.9,
+        "current_year": 2026.91,
         "years_since_peak": 1,
         "recovery_rate_linear": 0.063,
         "recovery_timescale_years": 4.9,
